@@ -23,5 +23,5 @@ Here we recover and separate objects from each other in a scene like:
 
 <h1>positioning</h1>
 
-here we rotate the image to put the object in a desired direction
+here we rotate the image to put the object in a desired direction with soh cah toa
 
