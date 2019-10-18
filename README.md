@@ -18,7 +18,7 @@ Here we try to recup the object in a background different from a white backgroun
 
 <h1>repair multiple object</h1>
 
-Here we recover and separate objects in a complex scene
+Here we recover and separate objects from each other in a scene like:
 
 
 <h1>positioning</h1>
