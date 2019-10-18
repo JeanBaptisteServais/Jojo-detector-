@@ -11,10 +11,10 @@ but I had a lot of fun, most of the time! to work on the image here are some app
 
 
 
-Delete background
+<h1>Delete background</h1>
 
-repair multiple object
+<h1>repair multiple object</h1>
 
-positioning
+<h1>positioning</h1>
 
 
