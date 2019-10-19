@@ -26,6 +26,8 @@ not a robust background because it remove an unify background but we just need t
 ![aa-ConvertImage](https://user-images.githubusercontent.com/54853371/67151961-803a4d00-f2ce-11e9-8b6c-12888f8b0f5c.png)
 
 
+In case you need a fast and ok remove background you can take an eye on picture operation.background_no_unify.py :D
+
 <h4>repair multiple object</h4>
 
 Here we recover and separate objects from each other in a scene like:
