@@ -28,6 +28,17 @@ not a robust background because it remove an unify background but we just need t
 
 In case you need a fast and ok remove background you can take an eye on picture operation.background_no_unify.py :D
 
+
+![aaa-ConvertImage](https://user-images.githubusercontent.com/54853371/67152229-3ce1dd80-f2d2-11e9-8228-d2a468e667e2.png)
+
+![dd-ConvertImage](https://user-images.githubusercontent.com/54853371/67152230-3ce1dd80-f2d2-11e9-8fcd-e26fd434c4a8.png)
+
+or you can use :
+
+https://towardsdatascience.com/image-segmentation-using-pythons-scikit-image-module-533a61ecc980
+
+
+
 <h4>repair multiple object</h4>
 
 Here we recover and separate objects from each other in a scene like:
