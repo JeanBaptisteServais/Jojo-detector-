@@ -21,7 +21,7 @@ here are some applications:
 
 Here we try to recup the object in a background different from a white background 
 
-We can do better (like crop_object_detection.py and we can do better than that but dk who's separate object for a detection)
+not a robust background remove but ok for our pictures
 
 <h4>repair multiple object</h4>
 
