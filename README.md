@@ -21,7 +21,7 @@ here are some applications:
 
 Here we try to recup the object in a background different from a white background 
 
-not a robust background because it remove an unify background but we just need the form
+not a robust background because it remove an unify background but we just need the form okok i go try it
 
 ![aa-ConvertImage](https://user-images.githubusercontent.com/54853371/67151961-803a4d00-f2ce-11e9-8b6c-12888f8b0f5c.png)
 
