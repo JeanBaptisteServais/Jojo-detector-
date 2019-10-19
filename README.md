@@ -21,7 +21,7 @@ here are some applications:
 
 Here we try to recup the object in a background different from a white background 
 
-not a robust background remove but ok for our pictures
+not a robust background remove but ok for our pictures because they are unify
 
 <h4>repair multiple object</h4>
 
