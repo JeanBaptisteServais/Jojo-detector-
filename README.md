@@ -18,8 +18,10 @@ here are some applications:
 
 
 <h4>Delete background</h4>
+
 Here we try to recup the object in a background different from a white background 
 
+We can do better (like crop object detection who's separate object for a detection)
 
 <h4>repair multiple object</h4>
 
