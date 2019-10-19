@@ -1,4 +1,4 @@
-# work-on-picture (in testing)
+# work-on-picture (write pep8 and testing)
 
 Hey my name's JB, I tested to make programs based on image processing. Because I think it's really cool and funny ! i tried to make a programm who by the presentation of a complex scene and the learning of detection of a plate would seek several objects at random and automatically detect other objects without explicite objects learning. It based on scrap and download picture on the web. 
 
