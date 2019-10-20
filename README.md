@@ -79,6 +79,16 @@ PICTURE
 
 <em>Data to good rotation</em>
 
+<br><br><br>
+
+<h2>delete</h2>
+
+Here we delete data destroy by last operations (background who break some picture or didn't worked)...
+
+Indeed we removing small and big contours 1400 < contour > 11000
+
+
+
 
 <br><br><br><br><br><br><br><br><br><br><br><br><br>
 <h1>Limits</h1>
