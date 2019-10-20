@@ -30,11 +30,11 @@ not a robust background because it remove an unify background because we just ne
 
 
 
-
-
 <h4>repair multiple object</h4>
 
 Here we recover and separate objects from each other in a scene like:
+
+![a-ConvertImage](https://user-images.githubusercontent.com/54853371/67152924-c77d0980-f2df-11e9-9a47-8c671cad8bbe.png)
 
 
 <h4>positioning</h4>
