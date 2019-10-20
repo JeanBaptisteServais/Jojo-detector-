@@ -21,7 +21,7 @@ first: plate ->  search categorie -> give -> washing up (i hate that) -> give ->
 
 Here we define size of our objects
 
-Thank to that we can define resize and matching for leaning
+Thank to that we can define resize and matching for leaning for ewample a plate can be 50x50 dimension and spoon can be 100x200 (A faire label)
 
 <br><br><br><br>
 
