@@ -41,6 +41,14 @@ Here we recover and separate objects from each other in a scene like:
 
 here we rotate the image to put the object in a desired direction with soh cah toa
 
-<h1>Inprovements</h1>
+<h1>Limits</h1>
 
-remove bakcground in case background isn't unify 
+ - our remove background destroy a lot of data
+ 
+ -
+ 
+ -
+ 
+ -
+ 
+ -
