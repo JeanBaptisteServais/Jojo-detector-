@@ -45,9 +45,9 @@ here we rotate the image to put the object in a desired direction with soh cah t
 
  - our remove background destroy a lot of data
  
- -
+ - our detector detect only form, and if we have many object with the same form ?
  
- -
+ - scraping
  
  -
  
