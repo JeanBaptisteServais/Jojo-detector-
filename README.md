@@ -19,6 +19,10 @@ first: plate ->  search categorie -> give -> washing up (i hate that) -> give ->
 
 <h2>Composition object</h2>
 
+Here we define size of our objects
+
+Thank to that we can define resize and matching for leaning
+
 <br><br><br><br>
 
 <h1>Image processing</h1>
