@@ -27,6 +27,7 @@ not a robust background because it remove an unify background because we just ne
 
 <em>Background to remove background</em>
 
+<br><br><br>
 
 
 
@@ -38,7 +39,7 @@ Here we recover and separate objects from each other in a scene like:
 
 <em>Scene with multiple objects to object by object</em>
 
-
+<br><br><br>
 
 <h4>positioning</h4>
 
