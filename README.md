@@ -52,6 +52,6 @@ here we rotate the image to put the object in a desired direction with soh cah t
  
  - scraping
  
- -
+ - false detection in case plate section has a multiple object (can redetection and raise the csv line)
  
  -
