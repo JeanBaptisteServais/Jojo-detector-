@@ -21,7 +21,7 @@ here are some applications:
 
 Here we try to recup the object in a background different from a white background 
 
-not a robust background because it remove an unify background but we just need the form
+not a robust background because it remove an unify background because we just need the form
 
 ![aa-ConvertImage](https://user-images.githubusercontent.com/54853371/67151961-803a4d00-f2ce-11e9-8b6c-12888f8b0f5c.png)
 
@@ -41,3 +41,6 @@ Here we recover and separate objects from each other in a scene like:
 
 here we rotate the image to put the object in a desired direction with soh cah toa
 
+<h1>Inprovements</h1>
+
+remove bakcground in case background isn't unify 
