@@ -58,7 +58,7 @@ here we rotate the image to put the object in a desired direction with soh cah t
 
 <h3>For that</h3>
 
-Thank to <strong>S.Belleguy</strong> who's help me a lot for that !
+Thank to <strong>S.Belleguy</strong> who's help me a lot for the formula ! (in case tired and saw strange way)
 
 - We take the max point, the head and the footer of the current object
 
