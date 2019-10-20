@@ -59,4 +59,4 @@ here we rotate the image to put the object in a desired direction with soh cah t
  
  - false detection in case plate section has a multiple object (can redetection and raise the csv line)
  
- -
+ - one operation can be ok on a picture and not ok on another
