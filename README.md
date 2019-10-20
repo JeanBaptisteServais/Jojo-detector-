@@ -17,7 +17,7 @@ here are some applications:
 <h1>Image processing</h1>
 
 
-<h4>Delete background</h4>
+<h2>Delete background</h2>
 
 Here we try to recup the object in a background different from a white background 
 
@@ -31,7 +31,7 @@ not a robust background because it remove an unify background because we just ne
 
 
 
-<h4>repair multiple object</h4>
+<h2>repair multiple object</h2>
 
 Here we recover and separate objects from each other in a scene like:
 
@@ -41,7 +41,7 @@ Here we recover and separate objects from each other in a scene like:
 
 <br><br><br>
 
-<h4>positioning</h4>
+<h2>positioning</h2>
 
 here we rotate the image to put the object in a desired direction with soh cah toa
 
