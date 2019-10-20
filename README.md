@@ -13,6 +13,13 @@ here are some applications:
 
 <h1>scrap</h1>
 
+<h2>Categories</h2>
+
+first: plate ->  search categorie -> give -> washing up (i hate that) -> give -> aliment, -> spoon, cut, tomato...
+
+<h2>Composition object</h2>
+
+<br><br><br><br>
 
 <h1>Image processing</h1>
 
@@ -86,6 +93,20 @@ PICTURE
 Here we delete data destroy by last operations (background who break some picture or didn't worked)...
 
 Indeed we removing small and big contours 1400 < contour > 11000
+
+<br><br><br><br>
+
+
+
+<h2>Supervised learning</h2>
+
+
+
+
+
+
+
+
 
 
 
