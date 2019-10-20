@@ -25,7 +25,7 @@ not a robust background because it remove an unify background because we just ne
 
 ![aa-ConvertImage](https://user-images.githubusercontent.com/54853371/67151961-803a4d00-f2ce-11e9-8b6c-12888f8b0f5c.png)
 
-
+<em>Background to remove background</em>
 
 
 
@@ -35,6 +35,9 @@ not a robust background because it remove an unify background because we just ne
 Here we recover and separate objects from each other in a scene like:
 
 ![a-ConvertImage](https://user-images.githubusercontent.com/54853371/67152924-c77d0980-f2df-11e9-9a47-8c671cad8bbe.png)
+
+<em>Scene with multiple objects to object by object</em>
+
 
 
 <h4>positioning</h4>
