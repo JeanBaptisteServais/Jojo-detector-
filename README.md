@@ -51,7 +51,7 @@ here we rotate the image to put the object in a desired direction with soh cah t
 
 PICTURE
 
-- We define 4 category because rotation isn't the same by inclinaison:
+- We define 4 categories because rotation isn't the same by inclinaison:
  
   - 1) top bot (top up, bot down)
   
