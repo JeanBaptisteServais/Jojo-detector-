@@ -45,6 +45,23 @@ Here we recover and separate objects from each other in a scene like:
 
 here we rotate the image to put the object in a desired direction with soh cah toa
 
+<h3>For that</h3>
+
+We take the max point, the head and the footer of the current object
+
+PICTURE
+
+We calculate the arctangeante because we have opposite and adjacent side.
+
+We rotate it to 45 - current degrees
+
+We re took current position of head and footer
+
+calculate distance on y axis on the two (we want |y1 - y2| < 10)
+
+We try a direction if |y1 - y2| increment from the last point we tried the opposite direction
+
+It make me so proud !
 
 ![cc-ConvertImage](https://user-images.githubusercontent.com/54853371/67152972-5a6a7380-f2e1-11e9-96ec-17d701f1d5d4.png)
 
