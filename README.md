@@ -51,6 +51,16 @@ here we rotate the image to put the object in a desired direction with soh cah t
 
 PICTURE
 
+- We define 4 category because rotation isn't the same by inclinaison:
+ 
+  - 1) top bot (top up, bot down)
+  
+  - 2) bot top (top down, bot up)
+  
+  - 3) horinzontal leaning
+  
+  - 4) normal
+
 - We calculate the arctangeante because we have opposite and adjacent side.
 
 - We rotate it to 45 - current degrees (x1; y1) - current degrees (x2; y2) 
