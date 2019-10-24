@@ -119,7 +119,7 @@ Indeed we removing small and big contours 1400 < contour > 11000
 
 <h1>Supervised learning</h1>
 
- only 4 lines
+ only 4 lines from a tuto
 
 
 
