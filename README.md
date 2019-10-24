@@ -22,7 +22,7 @@ this program is intelligent because it learns by itself and writes itself or thi
 
 <strong><h1>STEP ONE</h1></strong>
 
-<h4>We enter a picture. Then we treat it. Delete background if the background isn't white. Next we separate all object in a new picture. Finally we make a rotation if the objects is'nt horizontal. <br>
+<h4>We enter a picture. Then we treat it. Delete background if the background isn't white. Next we separate all object in a new picture. Finally we make a rotation if the objects is'nt horizontal. <br><br>
  
 Finally we recuperate the position on the complete picture of the crop for the second step in a position file. So we can say crop picture (independant objet) is here (in the complete scene)</h4>
 
