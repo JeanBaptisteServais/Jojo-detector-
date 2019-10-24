@@ -4,7 +4,7 @@
 I had a lot of fun, most of the time! to work on the image for have the best dataset ever ! possible (<em>it doesn't work, blam the dataset</em>).
 
 
-this program is intelligent because it learns by itself and writes itself or this program downloads images on the internet and makes comparaisons..
+this program is intelligent because it learns by itself and writes itself (to make eye-catching) or this program downloads images on the internet and makes comparaisons..
 
 
 
