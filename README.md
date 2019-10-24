@@ -1,8 +1,7 @@
 # work-on-picture (write pep8 and testing)
 
-<h4>Hey my name's JB, I tested to make programs based on image processing. Because I think it's really cool and funny ! i tried to make a programm who by the presentation of a complex scene and the learning of detection of a plate would seek several objects at random and automatically detect other objects without explicite objects learning. It based on scrap and download picture on the web. 
 
-I had a lot of fun, most of the time! to work on the image for have the best dataset ever ! possible (<em>it doesn't work, blam the dataset</em>).
+<h4>I had a lot of fun, most of the time! to work on the image for have the best dataset ever ! possible (<em>it doesn't work, blam the dataset</em>).
 
 
 this program is intelligent because it learns by itself and writes itself or this program downloads images on the internet and makes comparaisons..</h4>
@@ -162,3 +161,14 @@ Indeed we removing small and big contours 1400 < contour > 11000
  - false detection in case plate section has a multiple object (can redetection and raise the csv line)
  
  - one operation can be ok on a picture and not ok on another
+
+
+
+
+
+
+
+
+
+
+<h4>Hey my name's JB, I tested to make programs based on image processing. Because I think it's really cool and funny ! i tried to make a programm who by the presentation of a complex scene and the learning of detection of a plate would seek several objects at random and automatically detect other objects without explicite objects learning. It based on scrap and download picture on the web. </h4>
