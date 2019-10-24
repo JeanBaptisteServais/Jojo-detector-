@@ -6,6 +6,8 @@ I had a lot of fun, most of the time! to work on the image for have the best dat
 
 
 
+![diagramme](https://user-images.githubusercontent.com/54853371/67506455-5ba6f200-f68d-11e9-8cde-234bdfe8ba0f.png)
+
 
 
 
