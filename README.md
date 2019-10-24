@@ -8,7 +8,7 @@ I had a lot of fun, most of the time! to work on the image for have the best dat
 
 ![diagramme](https://user-images.githubusercontent.com/54853371/67506530-7e390b00-f68d-11e9-8085-913d96b38d0e.png)
 
-for the v2 we want detect part of objects, compare it ect but not now so shitting for now 
+for the v2 we want detect part of objects, compare it ect but not now so boring boring for now 
 
 
 
