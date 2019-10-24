@@ -114,8 +114,9 @@ Indeed we removing small and big contours 1400 < contour > 11000
 <br><br><br><br>
 
 
+<h1>Writting</h1>
 
-<h2>Supervised learning</h2>
+<h1>Supervised learning<h1>
 
 
 
