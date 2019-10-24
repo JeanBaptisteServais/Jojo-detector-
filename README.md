@@ -34,7 +34,11 @@ for example :<br><br>
  - first model can has 0 -> dog &nbsp;&nbsp; 1 -> cat &nbsp;&nbsp; 5 -> bird &nbsp;&nbsp; 9 -> snake<br><br>
  - second model can has 0 -> car &nbsp;&nbsp; 5 -> roller &nbsp;&nbsp; 9 -> ball<br><br>
 
-So we make a label file who say to us the label of this model, the number of the model, the part of the object and finnally his dimension.<br><br>
+So we make a label file who say to us the label of this object, the number of the model and csv, the part of the object and finnally his dimension for the training.<br><br>
+
+For has the dimension we course the database where we have download picture (transform pixel to cm) and make an approximation of size.
+During the first training we only put the label and the name of the object. We enter the lasts informations like model number if we have a detection.
+
 
 So we'll try to match with dimension of the label file if we get this objet into our model.
 
