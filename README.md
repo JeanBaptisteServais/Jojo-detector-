@@ -37,7 +37,7 @@ for example :<br><br>
 So we make a label file who say to us the label of this object, the number of the model and csv, the part of the object and finnally his dimension for the training.<br><br>
 
 For has the dimension we course the database where we have download picture (transform pixel to cm) and make an approximation of size.
-During the first training we only put the label and the name of the object. We enter the lasts informations like model number if we have a detection.
+During the first training we only put the label and the name of the object. We enter the lasts informations like model number if we have a detection at the end.
 
 
 So we'll try to match with dimension of the label file if we get this objet into our model.
