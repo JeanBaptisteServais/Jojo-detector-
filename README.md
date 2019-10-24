@@ -44,7 +44,7 @@ During the first training we only put the label and the name of the object. We e
 
 So we'll try to match with dimension of the label file if we get this objet into our model.<br><br>
 
-This second step is essentially for display the picture ! For that we recuperate the lasts positions of the first step from the position file and display the complete picture with the independant picture of the object with arrow. Name of the detection if we have a detection or interogative points if we havn't got the detection. In the last case we recuperate the object with detection into a list.
+This second step is essentially for display the picture, recup dimension, recup label and... recup object with a detection ! For the displaying we recuperate the lasts positions of the first step from the position file and display the complete picture with the independant picture of the object with arrow. Name of the detection if we have a detection or interogative points if we havn't got the detection. In the last case we recuperate the object with detection into a list.
 
 
 
