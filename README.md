@@ -48,7 +48,7 @@ This second step is essentially for display the picture, recup dimension, recup 
 
 
 <p align="center">
-  <img width="460" height="300" src=""https://user-images.githubusercontent.com/54853371/67530531-9de92700-f6bf-11e9-9baa-2014c7e99217.jpg"">
+  <img width="460" height="300" src="https://user-images.githubusercontent.com/54853371/67530531-9de92700-f6bf-11e9-9baa-2014c7e99217.jpg">
 </p>
 
 </h4>
