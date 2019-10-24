@@ -31,8 +31,8 @@ this program is intelligent because it learns by itself and writes itself or thi
 We can have x models with 10 labels.<br><br>
 for example :<br><br>
  
- - first model can has 0 -> dog, 1 -> cat 5->bird, 9-> snake<br><br>
- - second model can have 0 -> car, 5 -> roller, 9 -> ball<br><br>
+ - first model can has 0 -> dog &nbsp;&nbsp; 1 -> cat &nbsp;&nbsp; 5 -> bird &nbsp;&nbsp; 9 -> snake<br><br>
+ - second model can have 0 -> car &nbsp;&nbsp; 5 -> roller &nbsp;&nbsp; 9 -> ball<br><br>
 
 So we make a label file who say to us the label of this model, the number of the model, the part of the object and finnally his dimension.<br><br>
 
