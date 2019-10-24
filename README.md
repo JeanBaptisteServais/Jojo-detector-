@@ -8,7 +8,7 @@ I had a lot of fun, most of the time! to work on the image for have the best dat
 
 ![diagramme](https://user-images.githubusercontent.com/54853371/67506530-7e390b00-f68d-11e9-8085-913d96b38d0e.png)
 
-for the v2 we want detect part of objects, compare it ect but not now so boring boring for now increase the scrap and make loop turns, increase the speed, in any situation detect objects and not that in this scene, do not have a starting object, make a smart system that does not detect a plate on a football field (stop put me keeper ...)
+for the v2 we want detect part of objects, compare it ect but not now so boring boring for now increase the scrap and make loop turns, increase the speed, in any situation detect objects and not that in this scene, do not have a starting object, make a smart system that does not detect a plate on a football field (stop put me keeper ...) because it only work maybe for this picture.
 
 
 
