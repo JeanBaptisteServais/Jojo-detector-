@@ -23,7 +23,7 @@ here are some applications:
 
 <strong><h1>STEP ONE</h1></strong>
 
-
+<h4>We enter a picture. </h4>
 
 
 
