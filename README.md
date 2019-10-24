@@ -1,7 +1,7 @@
 # work-on-picture (write pep8 and testing)
 
 
-<h4>I had a lot of fun, most of the time! to work on the image for have the best dataset ever ! possible (<em>it doesn't work, blam the dataset</em>).
+<h4>I had a lot of fun, most of the time! to work on the image for have the best dataset ever ! possible (<em>it doesn't work, blam the dataset</em>).<br><br>
 
 
 this program is intelligent because it learns by itself and writes itself or this program downloads images on the internet and makes comparaisons..</h4>
