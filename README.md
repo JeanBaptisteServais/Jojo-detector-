@@ -8,6 +8,10 @@ this program is intelligent because it learns by itself and writes itself or thi
 
 
 
+<h4>Maybe it work only on the current type of picture bacause we need to :<br>
+ for the v2 we want detect part of objects, compare it ect but not now so boring boring for now increase the scrap and make loop turns, increase the speed, in any situation detect objects and not that in this scene, do not have a starting object, make a smart system that does not detect a plate on a football field (stop put me keeper ...) because it only work maybe for this type of picture. improve the rewrite system and put more</h4>
+
+
 ![diagramme](https://user-images.githubusercontent.com/54853371/67506530-7e390b00-f68d-11e9-8085-913d96b38d0e.png)
 
 
@@ -182,9 +186,6 @@ Indeed we removing small and big contours 1400 < contour > 11000
 
 
 
-
-
-<h4>for the v2 we want detect part of objects, compare it ect but not now so boring boring for now increase the scrap and make loop turns, increase the speed, in any situation detect objects and not that in this scene, do not have a starting object, make a smart system that does not detect a plate on a football field (stop put me keeper ...) because it only work maybe for this type of picture. improve the rewrite system and put more</h4>
 
 
 
