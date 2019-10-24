@@ -51,6 +51,9 @@ This second step is essentially for display the picture, recup dimension, recup 
   <img width="460" height="300" src="https://user-images.githubusercontent.com/54853371/67530531-9de92700-f6bf-11e9-9baa-2014c7e99217.jpg">
 </p>
 
+<em>This is maybe ugly but there are a slot system who make it more beauty !</em>
+
+
 </h4>
 
 
