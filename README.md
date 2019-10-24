@@ -32,7 +32,7 @@ We can have x models with 10 labels.<br><br>
 for example :<br><br>
  
  - first model can has 0 -> dog, 1 -> cat 5->bird, 9-> snake<br><br>
- - second model can have 0 -> car, 5 -> roller, 9 -> ball<br><br><br>
+ - second model can have 0 -> car, 5 -> roller, 9 -> ball<br><br>
 
 So we make a label file who say to us the label of this model, the number of the model, the part of the object and finnally his dimension.<br><br>
 
