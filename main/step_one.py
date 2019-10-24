@@ -25,7 +25,6 @@ def to_crop(img):
 
     for cnt in contours:
         if cv2.contourArea(cnt) > maxi:
-            maxi = cv2.contourArea(cnt)
             x, y, w, h = cv2.boundingRect(cnt)
 
     return img[y:y+h, x:x+w], str(int(x+w/2)), str(y)
