@@ -1,17 +1,42 @@
 import os
+import cv2
 import threading
 
 #Main function picture
-from main_function_image import to_crop
 from main_function_image import open_picture
 from main_function_image import show_picture
 from main_function_image import save_picture
-from main_function_image import write_position
+
 
 #Pictures operations
 from picture_operation.background import main_background
 from picture_operation.multiple_objects import take_features_multi_obj
 from picture_operation.picture_orientation import take_features_position
+
+
+def to_crop(img):
+    """ We recuperate the object from the picture"""
+
+    maxi=0; h=cv2.RETR_EXTERNAL;points=cv2.CHAIN_APPROX_SIMPLE;
+
+    gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
+    _,thresh = cv2.threshold(gray,250,255,cv2.THRESH_BINARY_INV)
+    contours, _= cv2.findContours(thresh, h, points)
+
+    for cnt in contours:
+        if cv2.contourArea(cnt) > maxi:
+            maxi = cv2.contourArea(cnt)
+            x, y, w, h = cv2.boundingRect(cnt)
+
+    return img[y:y+h, x:x+w], str(int(x+w/2)), str(y)
+
+
+def write_position(positionx, positiony, name, path):
+    """We recuperate the position of the last box.
+    for the detection"""
+
+    with open(path, "a") as file:
+        file.write(positionx + "," + positiony + ";" + name + "\n")
 
 
 def step_one(path_folder_current, path_picture, path_position):
