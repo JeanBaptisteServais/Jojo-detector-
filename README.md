@@ -5,6 +5,11 @@ Hey my name's JB, I tested to make programs based on image processing. Because I
 I had a lot of fun, most of the time! to work on the image for have the best dataset ever ! possible (<em>it doesn't work, blam the dataset</em>).
 
 
+
+![diagramme](https://user-images.githubusercontent.com/54853371/67506289-14b8fc80-f68d-11e9-90cc-2e87c2a0ea1c.png)
+
+
+
 here are some applications:
 
 
