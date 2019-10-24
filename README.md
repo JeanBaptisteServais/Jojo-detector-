@@ -27,12 +27,12 @@ this program is intelligent because it learns by itself and writes itself or thi
 
 
 <strong><h1>STEP TWO</h1></strong>
-<h4>We try to verify if we have the current object in our model. 
-We can have x models with 10 labels.
-for example : - first model can has 0 -> dog, 1 -> cat 5->bird, 9-> snake
-               - second model can have 0 -> car, 5 -> roller, 9 -> ball
+<h4>We try to verify if we have the current object in our model. <br>
+We can have x models with 10 labels.<br><br>
+for example : - first model can has 0 -> dog, 1 -> cat 5->bird, 9-> snake<br>
+               - second model can have 0 -> car, 5 -> roller, 9 -> ball<br><br>
 
-So we make a label file who say to us the label of this model, the number of the model, the part of the object and finnally his dimension.
+So we make a label file who say to us the label of this model, the number of the model, the part of the object and finnally his dimension.<br>
 
 So we'll try to match with dimension of the label file if we get this objet into our model.
 
