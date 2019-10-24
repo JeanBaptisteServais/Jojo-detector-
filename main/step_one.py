@@ -14,15 +14,11 @@ from picture_operation.multiple_objects import take_features_multi_obj
 from picture_operation.picture_orientation import take_features_position
 
 
-def step_one():
+def step_one(path_folder_current, path_picture, path_position):
     """Here treating entrance picture.
     If there are many objects, we separate them into a new picture.
     For that we need to write them into the current folder from dataset"""
 
-
-    path_folder_current = "../dataset/image/current/"
-    path_picture = "../dataset/image/current/current.jpg"
-    path_position = "../dataset/information_data/current/position.py"
     oInput = input("Enter an image")
     oInput = r"C:\Users\jeanbaptiste\Desktop\assiette\v2\dataset\image\test\assiette1.jpg"
 
@@ -47,6 +43,3 @@ def step_one():
 
         save_picture(str(path_folder_current + i), img)
         show_picture("display", img, 1, "y")
-
-
-step_one()
