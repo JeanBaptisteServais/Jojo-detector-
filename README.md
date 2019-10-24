@@ -1,34 +1,43 @@
 # work-on-picture (write pep8 and testing)
 
-Hey my name's JB, I tested to make programs based on image processing. Because I think it's really cool and funny ! i tried to make a programm who by the presentation of a complex scene and the learning of detection of a plate would seek several objects at random and automatically detect other objects without explicite objects learning. It based on scrap and download picture on the web. 
+<h4>Hey my name's JB, I tested to make programs based on image processing. Because I think it's really cool and funny ! i tried to make a programm who by the presentation of a complex scene and the learning of detection of a plate would seek several objects at random and automatically detect other objects without explicite objects learning. It based on scrap and download picture on the web. 
 
 I had a lot of fun, most of the time! to work on the image for have the best dataset ever ! possible (<em>it doesn't work, blam the dataset</em>).
 
 
-this program is intelligent because it learns by itself and writes itself or this program downloads images on the internet and makes comparaisons..
+this program is intelligent because it learns by itself and writes itself or this program downloads images on the internet and makes comparaisons..</h4>
 
 
 
 ![diagramme](https://user-images.githubusercontent.com/54853371/67506530-7e390b00-f68d-11e9-8085-913d96b38d0e.png)
 
-for the v2 we want detect part of objects, compare it ect but not now so boring boring for now increase the scrap and make loop turns, increase the speed, in any situation detect objects and not that in this scene, do not have a starting object, make a smart system that does not detect a plate on a football field (stop put me keeper ...) because it only work maybe for this type of picture. improve the rewrite system and put more
+<h4>for the v2 we want detect part of objects, compare it ect but not now so boring boring for now increase the scrap and make loop turns, increase the speed, in any situation detect objects and not that in this scene, do not have a starting object, make a smart system that does not detect a plate on a football field (stop put me keeper ...) because it only work maybe for this type of picture. improve the rewrite system and put more</h4>
 
 
 
 
 
-here are some applications:
+
 
 
 
 <strong><h1>STEP ONE</h1></strong>
 
-<h4>We enter a picture. </h4>
+<h4>We enter a picture. Then we treat it. Delete background if the background isn't white. Next we separate all object in a new picture. Finally we make a rotation if the objects is'nt horizontal.</h4>
 
 
 
+<strong><h1>STEP TWO</h1></strong>
+<h4>We try to verify if we have the current object in our model. 
+We can have x models with 10 labels.
+for example : - first model can has 0 -> dog, 1 -> cat 5->bird, 9-> snake
+               - second model can have 0 -> car, 5 -> roller, 9 -> ball
 
+So we make a label file who say to us the label of this model, the number of the model, the part of the object and finnally his dimension.
 
+So we'll try to match with dimension of the label file if we get this objet into our model.
+
+</h4>
 
 
 
