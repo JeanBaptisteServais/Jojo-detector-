@@ -6,7 +6,7 @@ I had a lot of fun, most of the time! to work on the image for have the best dat
 
 
 
-
+![diagramme](https://user-images.githubusercontent.com/54853371/67506530-7e390b00-f68d-11e9-8085-913d96b38d0e.png)
 
 
 
