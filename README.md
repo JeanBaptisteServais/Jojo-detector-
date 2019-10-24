@@ -22,7 +22,7 @@ this program is intelligent because it learns by itself and writes itself or thi
 
 <strong><h1>STEP ONE</h1></strong>
 
-<h4>We enter a picture. Then we treat it. Delete background if the background isn't white. Next we separate all object in a new picture. Finally we make a rotation if the objects is'nt horizontal.</h4>
+<h4>We enter a picture. Then we treat it. Delete background if the background isn't white. Next we separate all object in a new picture. Finally we make a rotation if the objects is'nt horizontal. Finally we recuperate the position on the complete picture of the crop for the second step in a position file.</h4>
 
 
 
@@ -40,7 +40,11 @@ For has the dimension we course the database where we have download picture (tra
 During the first training we only put the label and the name of the object. We enter the lasts informations like model number if we have a detection at the end.
 
 
-So we'll try to match with dimension of the label file if we get this objet into our model.
+So we'll try to match with dimension of the label file if we get this objet into our model.<br><br>
+
+This second step is essentially for display the picture ! For that we recuperate the lasts positions of the first step from the position file and display the complete picture with the independant picture of the object with arrow. Name of the detection if we have a detection or interogative points if we havn't got the detection. In the last case we recuperate the object with detection into a list.
+
+
 
 </h4>
 
