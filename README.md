@@ -65,21 +65,19 @@ This second step is essentially for display the picture, recup dimension, recup 
 
 
 
-<h1>scrap</h1>
+<h1>Step Three</h1>
+<h2>scrap</h2>
 
-<h2>Categories</h2>
 
-first: plate ->  search categorie -> give -> washing up (i hate that) -> give -> aliment, -> spoon, cut, tomato...
 
-<h2>Composition object</h2>
 
-Here we define size of our objects
 
-Thank to that we can define resize and matching for leaning for ewample a plate can be 50x50 dimension and spoon can be 100x200 (A faire label)
 
-<br><br><br><br>
 
-<h1>Image processing</h1>
+
+<h1>Step Fourth</h1>
+
+<h2>Image processing</h2>
 
 
 <h2>Delete background</h2>
@@ -156,8 +154,10 @@ Indeed we removing small and big contours 1400 < contour > 11000
 
 <br><br><br><br>
 
+<h1>Auto programming</h1>
 
-<h1>Writting</h1>
+<h2>Writting</h2>
+
 
 <h1>Supervised learning</h1>
 
