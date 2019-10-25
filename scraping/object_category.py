@@ -14,16 +14,18 @@ def our_dico_path_url():
     """
 
     dico_path = {"google":"https://www.google.com/search?sxsrf=ACYBGNSdXLbezE1nvpQMhQ6Hp" +
-                 "7qFGaiDxg%3A1570625734452&ei=xtidXfahG8rCgwfSsauQDQ&q=cat%C3%A9gorie+de+" +
-                 "l%27objet+{0}&oq=cat%C3%A9gorie+de+l%27objet+{0}&gs_l=psy-ab.3..33i160.683.1619" +
-                 "..1667...0.0..0.200.916.0j6j1......0....1..gws-wiz.......33i22i29i30.ya7xfhMLlT8&" +
-                 "ved=0ahUKEwj2nOjnnI_lAhVK4eAKHdLYCtIQ4dUDCAs&uact=5",
+                 "7qFGaiDxg%3A1570625734452&ei=xtidXfahG8rCgwfSsauQDQ&q=cat%C3%A9gorie+d" +
+                 "e+l%27objet+{0}&oq=cat%C3%A9gorie+de+l%27objet+{0}&gs_l=psy-ab.3..33i1" + 
+                 "60.683.1619..1667...0.0..0.200.916.0j6j1......0....1..gws-wiz.......33" +
+                 "i22i29i30.ya7xfhMLlT8&ved=0ahUKEwj2nOjnnI_lAhVK4eAKHdLYCtIQ4dUDCAs&uact=5",
+
                  "wikipedia": "https://fr.wikipedia.org/wiki/{}",
-                 "exemple_of":"https://www.google.com/search?hl=fr&sxsrf=ACYBGN" +
-                 "QeVb_NYY7utIXV-9TKkWxW89ABgg%3A1570629335228&ei=1-adXZHODb6IjLsP" +
-                 "6N2VuAc&q=exemple+de+{0}&oq=exemple+de+{0}&gs_l=psy-ab.3..0i22" +
-                 "i10i30j0i22i30l9.4989.6189..6333...0.4..0.115.711.4j3......0....1..gws-w" +
-                 "iz.......0i71j0j0i20i263j0i203.QvdVxJ7yvh4&ved=0ahUKEwjRleacqo_lAhU-BGMBHehuBXcQ4dUDCAs&uact=5"}
+
+                 "exemple_of":"https://www.google.com/search?hl=fr&sxsrf=ACYBGNQeVb_NYY7" +
+                 "utIXV-9TKkWxW89ABgg%3A1570629335228&ei=1-adXZHODb6IjLsP6N2VuAc&q=exemp" +
+                 "le+de+{0}&oq=exemple+de+{0}&gs_l=psy-ab.3..0i22i10i30j0i22i30l9.4989.6" +
+                 "189..6333...0.4..0.115.711.4j3......0....1..gws-wiz.......0i71j0j0i20i" +
+                 "263j0i203.QvdVxJ7yvh4&ved=0ahUKEwjRleacqo_lAhU-BGMBHehuBXcQ4dUDCAs&uact=5"}
 
     return dico_path
 
@@ -92,7 +94,7 @@ def other_element_from_category(object_category, label, dico_path):
         if no_navigation >= 0 and i.get_text() not in (""):
             liste.append(i.get_text())
         #stop at 10 elements
-        if nb >= 10:break
+        if nb >= 10 : break
 
     return liste
 
@@ -133,7 +135,7 @@ def search_no_object(content_html, mode):
                     " Moins d'un mois", " Moins d'un an", "Moins de 24\xa0heures"
                     "Tous les résultats", "Mot à mot", "Tous les résultats",
                     'Date indifférente', 'Rechercher les pages en Français',
-                    'Toutes les langues', 'Date indifférente'):
+                    'Toutes les langues', 'Date indifférente', 'Moin de 24 heure'):
 
             #Sometimes there are in end words
             if i[-1] in (".", ",", ";"): i = i[:-1];
