@@ -156,7 +156,7 @@ Indeed we removing small and big contours 1400 < contour > 11000
 
 <h1>Step five</h1>
 
-<h2>Auto programming</h2>
+<h2>Recuperate dimensions by Thread/Auto programming</h2>
 
 could be ! maybe... maybe an arg** do the same
 
