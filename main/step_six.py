@@ -25,8 +25,7 @@ def step_six(liste, path_data, path_folder, path_image, path_label,
                 if info_size[2] == path_folder.format(i):
                     size = define_size(info_size)
                     write_labels(path_label, no, str(i), no,
-                                 str(size[0]), str(size[1]),
-                                 no)
+                                 str(size[0]), str(size[1]), no)
 
             #label and pixels descriptions
             head_writting(csv_name.format(i), size[0] * size[1])
@@ -34,8 +33,7 @@ def step_six(liste, path_data, path_folder, path_image, path_label,
             #write picture into csv file
             picture_writting(csv_name.format(i),
                              path_folder.format(i),
-                             "", 
-                             size[0], size[1], "1")
+                             "", size[0], size[1], "1")
             #train negatives pictures
             negativ_training(i, csv_name.format(i), size)
 
