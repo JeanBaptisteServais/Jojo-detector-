@@ -64,7 +64,7 @@ def detection(model, w, h, img):
     contours,h=cv2.findContours(grayblanck, hiear, points)
 
 
-    maxi = 0; ;non = False;
+    maxi = 0; non = False;
     for c in contours:
         if cv2.contourArea(c) > 11000: non = True;
         else:
