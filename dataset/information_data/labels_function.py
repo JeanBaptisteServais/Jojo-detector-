@@ -1,17 +1,18 @@
 
-path_label = r"C:\Users\jeanbaptiste\Desktop\assiette\v2\dataset\information_data\label.py"
+#Write into labels
+def write_labels(path_label, model, name,
+                 label, size1, size2, items):
 
-def write_labels(path_label, model, name, label, size1, size2, items):
     with open(path_label, "a") as file:
 
         to_write = model + ";" + name + ";" +\
-                   label + ";" +\
-                   items + ";" + size1 + "x" + size2 + ";\n"
+                   label + ";" + items + ";" +\
+                   size1 + "x" + size2 + ";\n"
+
         file.write(str(to_write))
 
 
-#RECUP PART
-
+#Recuperate parts
 def read(path_label, model_number):
 
     informations = [];
@@ -27,25 +28,18 @@ def read(path_label, model_number):
                 if j == ";":
                     if increment == model_number:
                         informations.append(i)
-                        increment = ""
-                        stop = True
+                        increment = ""; stop = True;
 
                 if stop is True:
                     break
 
                 increment += j
 
-
-
     return informations
 
 
 
-
-
-
-
-
+#Recuperate informations
 def treatment_read(liste):
 
     informations_object = {"csv_name":"", "name":"", "label":"",
@@ -56,8 +50,8 @@ def treatment_read(liste):
     informations_object["csv_name"] = liste[0]
     informations_object["name"] = liste[1]
     informations_object["label"] = liste[2]
-
     increment = ""
+
     for i in liste[3]:
         if i == ",":
             informations_object["part_object"].append(increment)
@@ -76,8 +70,7 @@ def treatment_read(liste):
             increment = ""
             incrementation = False
 
-        if incrementation is True:
-            increment += i
+        if incrementation is True : increment += i;
 
     informations_object["dimension"].append(increment)
 
@@ -90,27 +83,3 @@ def treatment_read(liste):
         return informations_object, w, h, l, n
     except ValueError:
         return informations_object
-        
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
