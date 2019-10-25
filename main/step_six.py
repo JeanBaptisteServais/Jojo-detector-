@@ -1,46 +1,44 @@
-from main_function_image import define_size
-from main_function_image import negativ_training
-from training.training import head_writting
-from training.training import picture_writting
 from training.training import train
+from training.training import head_writting
+from main_function_image import define_size
+from training.training import picture_writting
+from main_function_image import negativ_training
 from dataset.information_data.labels_function import write_labels
-def step_six(liste):
 
-    #Verify csv
 
-    path_data = "dataset/image/dataset"
-    path_folder = "dataset/image/dataset/{}"
-    path_image = "dataset/image/dataset/{}/{}"
+
+def step_six(liste, path_data, path_folder, path_image, path_label,
+             csv_name, model_name):
+
+    no = "None";
     liste_path = os.listdir(path_data)
-    path_label = "dataset/information_data/label.py"
 
-
+    #picture folder path
     for i in liste_path:
-        print(i)
-
         picture_folder = os.listdir(path_folder.format(i))
 
+        #less 10 pictures
         if len(picture_folder) > 10 and i != "assiette":
-
             for info_size in liste:
+
+                #write their dimensions for training
                 if info_size[2] == path_folder.format(i):
                     size = define_size(info_size)
-                    number_pix = size[0] * size[1]
-                    write_labels(path_label, "None", str(i),
-                                 "None", str(size[0]), str(size[1]), "None")
+                    write_labels(path_label, no, str(i), no,
+                                 str(size[0]), str(size[1]),
+                                 no)
 
-            csv_name = "training/csv/in_training/" + str(i) + ".csv"
-            model_name = "training/models/in_training/" + str(i)
+            #label and pixels descriptions
+            head_writting(csv_name.format(i), size[0] * size[1])
 
-            head_writting(csv_name, number_pix)
-
-            picture_writting(csv_name,
+            #write picture into csv file
+            picture_writting(csv_name.format(i),
                              path_folder.format(i),
                              "", 
                              size[0], size[1], "1")
+            #train negatives pictures
+            negativ_training(i, csv_name.format(i), size)
 
-            negativ_training(i, csv_name, size)
-
-
-            train(csv_name, model_name)
+            #train
+            train(csv_name.format(i), model_name.format(i))
 
