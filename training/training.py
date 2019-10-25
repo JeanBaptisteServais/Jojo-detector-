@@ -192,7 +192,7 @@ def take_max_contour_to_csv(blanck):
     for cnts in contours:
 
         #but if area of contour > 11000: bad background !
-        if cv2.contourArea(cnts) > 11000:
+        if cv2.contourArea(cnts) > 50000:
             non = True
 
         else:
@@ -209,10 +209,10 @@ def take_max_contour_to_csv(blanck):
                 cv2.fillPoly(blanck1, pts =[cnts], color=(255,255,255))
                 x, y, w, h = cv2.boundingRect(cnts)
   
-        blanck1 = blanck1 [y:y+h, x:x+w]
-        blanck1 = cv2.cvtColor(blanck1, cv2.COLOR_BGR2GRAY)
-        return blanck1
-    else : return None 
+    blanck1 = blanck1 [y:y+h, x:x+w]
+    blanck1 = cv2.cvtColor(blanck1, cv2.COLOR_BGR2GRAY)
+    return blanck1
+
 
 
 def picture_treatment(csv_name, picture, w, h, label):
@@ -227,15 +227,13 @@ def picture_treatment(csv_name, picture, w, h, label):
 
 
     img = open_picture(picture)
-    img = cv2.resize(img, (int(w), int(h)))
-    #("dza", img, 0, "")
 
     blanck = make_contours(img)
+    blanck = cv2.resize(blanck, (int(w), int(h)))
     blanck1 = take_max_contour_to_csv(blanck)
     if blanck1 is not None:
         data = to_list(blanck1)
         write_data_into_csv(csv_name, data, str(label))
-
 
 
 #-------------------------------- Model treatment
