@@ -67,3 +67,5 @@ def step_one(path_folder_current, path_picture, path_position):
 
         save_picture(str(path_folder_current + i), img)
         show_picture("display", img, 1, "y")
+
+    return len(liste)
