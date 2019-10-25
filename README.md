@@ -1,4 +1,4 @@
-# work-on-picture (write pep8 and testing)
+# work-on-picture (testing)
 
 
 I had a lot of fun, most of the time! to work on the image for have the best dataset ever ! possible (<em>it doesn't work, blam the dataset</em>).
