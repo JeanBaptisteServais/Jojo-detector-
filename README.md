@@ -160,14 +160,18 @@ Indeed we removing small and big contours 1400 < contour > 11000
 
 could be ! maybe... maybe an arg** do the same
 
-<h1>Supervised learning</h1>
+
+<h1>Step six</h1>
+
+<h2>Supervised learning</h2>
 
  only 4 lines from a tuto
 
 
 
+<h1>Step seven</h1>
 
-
+<h2>Decection from last leanning</h2>
 
 
 
