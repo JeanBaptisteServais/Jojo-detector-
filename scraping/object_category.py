@@ -30,7 +30,6 @@ def our_dico_path_url():
 
 
 def bs4_function(path, label, element_search):
-
     """Request, content, bs4, element"""
 
     request = requests.get(path.format(label))
@@ -149,7 +148,6 @@ def search_no_object(content_html, mode):
                         if increment == " s5aIid": liste_object.append(i)
                         increment = ""
                     increment += el_tag
-
             elif mode == "li": liste_object.append(i);
 
         counter +=1
@@ -206,8 +204,6 @@ def treatment_word(objects_to_search):
     to_replace = [".", ",", " les ", "Les ", "Le ",
                   "La ", " le ", " la ", "…"];
 
-    
-
     for mot in objects_to_search:
 
         #replace . , les ...
@@ -219,8 +215,7 @@ def treatment_word(objects_to_search):
 
         liste_w = []
         for i in mot_splt:
-            if i[-1] == "s":
-                i = i[:-1]
+            if i[-1] == "s" : i = i[:-1];
             liste_w.append(i)
     
         mot = " ".join(liste_w)
@@ -228,13 +223,10 @@ def treatment_word(objects_to_search):
         #raise after "et" (dog and cat)
         for fnd in to_find:
             search = str(mot).find(fnd)
-
-            if search >= 0:
-                mot = mot[:search]
-        
+            if search >= 0: mot = mot[:search];
+ 
         #final caractere is " "
-        if mot[-1] == " ":
-            mot = mot[:-1]
+        if mot[-1] == " ": mot = mot[:-1];
 
         liste.append(mot)
 
@@ -261,4 +253,4 @@ def main_scrap(label):
 
     return objects_to_search
 
-print(main_scrap("assiette"))
+
