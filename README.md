@@ -154,10 +154,11 @@ Indeed we removing small and big contours 1400 < contour > 11000
 
 <br><br><br><br>
 
-<h1>Auto programming</h1>
+<h1>Step five</h1>
 
-<h2>Writting</h2>
+<h2>Auto programming</h2>
 
+could be ! maybe... maybe an arg** do the same
 
 <h1>Supervised learning</h1>
 
