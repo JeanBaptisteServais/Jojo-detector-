@@ -152,6 +152,27 @@ Here we delete data destroy by last operations (background who break some pictur
 
 Indeed we removing small and big contours 1400 < contour > 11000
 
+
+
+
+<h2>Dimension</h2>
+
+
+
+
+
+<h2>Find part</h2>
+ for v2
+
+
+
+
+
+
+
+
+
+
 <br><br><br><br>
 
 <h1>Step five</h1>
