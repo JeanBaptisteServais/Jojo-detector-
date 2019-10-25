@@ -22,17 +22,22 @@ path_folder_format = "../dataset/image/dataset/{}"
 path_image_format = "../dataset/image/dataset/{}/{}"
 path_csv_name = "training/csv/in_training/{}.csv"
 path_model_name = "training/models/in_training/{}"
+path_to_thread = "ecriture/to_thread.py"
 
-
-
+def raise_file_wrote():
+    os.remove(path_to_thread)
 
 if __name__ == "__main__":
+
+
 
     #liste = []
     #length = 0
     #while len(liste) != length:
-    
-    #l = step_one(path_folder_current, path_picture, path_position)
+
+    #raise_file_wrote()
+
+    #step_one(path_folder_current, path_picture, path_position)
     #length = l
 
     #detections = step_two(path_current, path_copy, path_folder_current,
