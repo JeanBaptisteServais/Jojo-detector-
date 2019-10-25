@@ -34,5 +34,7 @@ if __name__ == "__main__":
     #                      path_models, path_label)
     #found = step_three(detections, path_folder_current)
     #step_fourth(objects, path_data, path_folder_format, path_image_format)
-    #a, b = step_five
+    #step_five(path_data)
+    #step_six()
+    #a, b = step_seven()
     #if a: liste.append(b)
