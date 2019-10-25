@@ -23,6 +23,6 @@ def step_three(detection, path_folder_current):
 
     #Download
     for i in liste:
-        download_picture(i, path_folder_current + str(i)
+        download_picture(i, path_folder_current + str(i))
 
     return liste
