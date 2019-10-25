@@ -82,4 +82,4 @@ def treatment_read(liste):
 
         return informations_object, w, h, l, n
     except ValueError:
-        return informations_object
+        return informations_object, w, h
