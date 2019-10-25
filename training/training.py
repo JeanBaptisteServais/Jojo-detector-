@@ -209,9 +209,10 @@ def take_max_contour_to_csv(blanck):
                 cv2.fillPoly(blanck1, pts =[cnts], color=(255,255,255))
                 x, y, w, h = cv2.boundingRect(cnts)
   
-    blanck1 = blanck1 [y:y+h, x:x+w]
-    blanck1 = cv2.cvtColor(blanck1, cv2.COLOR_BGR2GRAY)
-    return blanck1
+        blanck1 = blanck1 [y:y+h, x:x+w]
+        blanck1 = cv2.cvtColor(blanck1, cv2.COLOR_BGR2GRAY)
+        return blanck1
+    else : return None 
 
 
 def picture_treatment(csv_name, picture, w, h, label):
@@ -231,9 +232,9 @@ def picture_treatment(csv_name, picture, w, h, label):
 
     blanck = make_contours(img)
     blanck1 = take_max_contour_to_csv(blanck)
-    show_picture("blanck1", blanck1, 0, "")
-    data = to_list(blanck1)
-    write_data_into_csv(csv_name, data, str(label))
+    if blanck1 is not None:
+        data = to_list(blanck1)
+        write_data_into_csv(csv_name, data, str(label))
 
 
 
