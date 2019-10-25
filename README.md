@@ -1,4 +1,4 @@
-# work-on-picture (testing)
+# work-on-picture (in finish)
 
 
 I had a lot of fun, most of the time! to work on the image for have the best dataset ever ! possible (<em>it doesn't work, blam the dataset</em>).
