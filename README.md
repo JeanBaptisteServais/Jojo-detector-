@@ -201,7 +201,7 @@ could be ! maybe... maybe an arg** do the same
 
 we only can obtein the spoons and the fork (in reality it detect fork + spoon) and not the cut
 
-grr
+but we can say it's correct ! because we never choose our dataset and quality from our start picture has a bad quality and for the cut, and we only download 200 pictures (case it's so long) and among the last 200 pictures there are a lot of strange objets !
 
 
 <br><br><br><br><br><br><br><br><br><br><br><br><br>
