@@ -201,7 +201,7 @@ could be ! maybe... maybe an arg** do the same
 
 we only can obtein the spoons and the fork (in reality it detect fork + spoon) and not the cut
 
-so this method sucks for detect objets
+grr
 
 
 <br><br><br><br><br><br><br><br><br><br><br><br><br>
