@@ -44,7 +44,7 @@ def define_size(i):
     #exemple : spoon
     if abs(i[0] - i[1]) > 3.0 and\
        i[0] > i[1]:
-        out = [100,200]
+        out = [20,100]
 
     #exemple : plate
     elif abs(i[0] - i[1]) > 2.0 and\
@@ -56,7 +56,7 @@ def define_size(i):
     elif abs(i[0] - i[1]) > 1.0 and\
          abs(i[0] - i[1]) < 2.0 and\
          i[0] > i[1]:
-        out = [50, 100]
+        out = [20, 100]
 
     #exemple : plate
     elif abs(i[0] - i[1]) > 0.0 and\
