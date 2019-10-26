@@ -1,7 +1,9 @@
 import os
 import csv
 
-
+from training.traning import csv_to_list
+from training.traning import training
+from training.traning import train
 def last_csv(liste_csv):
 
     liste_w = []
@@ -34,6 +36,8 @@ def last_csv(liste_csv):
 
 
 
+
+
 def step_height(liste, path_csv_training, path_csv,
                 path_model_training, liste_model):
 
@@ -55,7 +59,6 @@ def step_height(liste, path_csv_training, path_csv,
             if str(i) + ".csv" == str(csv):
                 to_change.append(csv)
 
-
     for i in to_change:
         path = path_csv_training + "/" + str(i)
         main = open(to_read, 'a')
@@ -63,7 +66,6 @@ def step_height(liste, path_csv_training, path_csv,
         f =  open(path, 'r')
         dataframe = f.readlines()
         dataframe = dataframe
-
 
         for j in dataframe:
             ok = False
@@ -76,3 +78,7 @@ def step_height(liste, path_csv_training, path_csv,
             if ok is True:
                 main.write("\n")
         label += 1
+
+
+    X, y = csv_to_list(to_read)
+    training(X, Y, to_read)
