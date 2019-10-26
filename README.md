@@ -62,9 +62,6 @@ This second step is essentially for display the picture, recup dimension, recup 
 </h4>
 
 
-
-
-
 <h1>Step Three</h1>
 <h2>scrap</h2>
 
@@ -203,6 +200,14 @@ we only can obtein the spoons and the fork (in reality it detect fork + spoon) a
 
 but we can say it's correct ! because we never choose our dataset and quality from our start picture has a bad quality and for the cut, and we only download 200 pictures (case it's so long) and among the last 200 pictures there are a lot of strange objets !
 i think have understood how train a classifier so it's ok for me. How terminator could detect unknow objects maybe with this u_u 
+
+
+
+<p align="center">
+ <img width="460" height="300" src="https://user-images.githubusercontent.com/54853371/67612661-8cc61600-f7a4-11e9-88aa-672bfe426dea.jpg">
+
+</p>
+
 
 <br><br><br><br><br><br><br><br><br><br><br><br><br>
 <h1>Limits</h1>
