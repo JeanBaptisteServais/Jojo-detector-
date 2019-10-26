@@ -195,7 +195,13 @@ could be ! maybe... maybe an arg** do the same
 <h2>Decection from last leanning</h2>
 
 
+<h1>Step height</h1>
 
+<h2>modify current csv and model</h2>
+
+we only can obtein the spoons and the fork (in reality it detect fork + spoon) and not the cut
+
+so this method sucks for detect objets
 
 
 <br><br><br><br><br><br><br><br><br><br><br><br><br>
