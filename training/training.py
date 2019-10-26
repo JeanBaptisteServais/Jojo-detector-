@@ -11,7 +11,7 @@ from skimage import exposure
 import matplotlib.pyplot as plt
 from sklearn.utils import shuffle
 from sklearn.decomposition import PCA
-
+from sklearn.neighbors import KNeighborsClassifier
 
 #-------------------------------- CSV treatment
 
@@ -168,7 +168,7 @@ def make_contours(img):
     return blanck
 
 
-def take_max_contour_to_csv(blanck):
+def take_max_contour_to_csv(blanck, width, height):
     """
         Recup the max contour (imutil function better)
         and redraw it on a new picture
@@ -211,6 +211,8 @@ def take_max_contour_to_csv(blanck):
   
         blanck1 = blanck1 [y:y+h, x:x+w]
         blanck1 = cv2.cvtColor(blanck1, cv2.COLOR_BGR2GRAY)
+        blanck1 = cv2.resize(blanck1, (int(width), int(height)))
+
         return blanck1
     else : return None 
 
@@ -230,11 +232,7 @@ def picture_treatment(csv_name, picture, w, h, label):
     #("dza", img, 0, "")
 
     blanck = make_contours(img)
-    blanck1 = take_max_contour_to_csv(blanck)
-    try:
-        blanck1 = cv2.resize(blanck1, (int(w), int(h)))
-    except:
-        pass
+    blanck1 = take_max_contour_to_csv(blanck, w, h)
 
     if blanck1 is not None:
         data = to_list(blanck1)
@@ -311,7 +309,7 @@ def training(X, Y, model_name):
 
     #call SVC function
     model = svm.SVC(kernel="linear",C=2)
-
+    #model = KNeighborsClassifier(n_neighbors=3)
     #fit method
     model.fit(X_train,Y_train)
 
