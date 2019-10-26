@@ -197,7 +197,7 @@ could be ! maybe... maybe an arg** do the same
 
 <h1>Step height</h1>
 
-<h2>modify current csv and model</h2>
+<h2>modify current csv and model from csv and model training</h2>
 
 we only can obtein the spoons and the fork (in reality it detect fork + spoon) and not the cut
 
