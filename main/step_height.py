@@ -1,9 +1,12 @@
+import sys
+sys.path.append(r"C:\Users\jeanbaptiste\Desktop\assiette\v2")
+
 import os
 import csv
 
-from training.traning import csv_to_list
-from training.traning import training
-from training.traning import train
+from training.training import csv_to_list
+from training.training import training
+from training.training import train
 def last_csv(liste_csv):
 
     liste_w = []
