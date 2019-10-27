@@ -1,3 +1,4 @@
+import os
 import sys
 sys.path.append(r"C:\Users\jeanbaptiste\Desktop\assiette\v2")
 
@@ -29,7 +30,15 @@ path_model = "../training/models/models"
 path_csv_training = "../training/csv/in_training"
 
 def raise_file_wrote():
-    os.remove(path_to_thread)
+
+    liste = [path_position, path_to_thread]
+    for i in liste:
+        with open(i, "w") as file:
+            file.write("")
+
+def raise_picture_training():
+    pass
+
 
 if __name__ == "__main__":
 
@@ -38,32 +47,32 @@ if __name__ == "__main__":
     #liste = []; length = 0;
     #while len(liste) != length:
 
-    #raise_file_wrote()
+    raise_file_wrote()
 
-    #length = step_one(path_folder_current, path_picture, path_position)
+    length = step_one(path_folder_current, path_picture, path_position)
 
-    #detections = step_two(path_current, path_copy, path_folder_current,
-    #                      path_models, path_label)
+    detections = step_two(path_current, path_copy, path_folder_current,
+                          path_models, path_label)
 
-    #found = step_three(detections, path_folder_current)
+    found = step_three(detections, path_folder_current)
 
-    #step_fourth(objects, path_data, path_folder_format, path_image_format)
+    step_fourth(objects, path_data, path_folder_format, path_image_format)
 
-    #dimensions = step_five(path_data)
-
-##    step_six(dimensions, path_data, path_folder_format,
-##             path_image_format, path_label, path_csv_name,
-##             path_model_name)
-
-    liste = step_seven(path_folder_current, path_models_training, path_label)
-    #liste + b
-
-    step_height(liste, path_csv_training, path_csv,
-                path_model, path_model_training)
+    dimensions = step_five(path_data)
 
 
+    step_six(dimensions, path_data, path_folder_format,
+             path_image_format, path_label, path_csv_name,
+             path_model_name)
 
+    ##liste = step_seven(path_folder_current, path_models_training, path_label)
+    ##print(liste)
+
+
+    step_height(liste, path_label, path_models_training, path_model)
 
 
 
-    
+
+
+
