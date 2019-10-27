@@ -79,12 +79,13 @@ def negativ_training(positive, csv_name, size):
 
     liste = os.listdir(path_data)
     for i in liste:
-        if i != positive:
+        for j in positive:
+            if i != j:
 
-            liste1 = os.listdir(path_folder.format(i))
+                liste1 = os.listdir(path_folder.format(i))
 
-            picture_writting(csv_name,
-                             path_folder.format(i),
-                             "",
-                             size[0], size[1], "0")
+                picture_writting(csv_name,
+                                 path_folder.format(i),
+                                 "",
+                                 size[0], size[1], "0")
 
