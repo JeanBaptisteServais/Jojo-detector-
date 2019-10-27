@@ -209,6 +209,22 @@ i think have understood how train a classifier so it's ok for me. How terminator
 </p>
 
 
+
+
+
+
+
+<h1>Finally</h1>
+
+
+
+
+
+
+
+
+
+
 <br><br><br><br><br><br><br><br><br><br><br><br><br>
 <h1>Limits</h1>
 
