@@ -6,8 +6,7 @@ I tested to make programs based on image processing.<br> Because I think it's re
 <br><br>
 
 <h1>Projet presentation</h1>
-
-This project with picture classifier! <br>
+<br>
 
 <h3>Resum of the project</h3>
 
