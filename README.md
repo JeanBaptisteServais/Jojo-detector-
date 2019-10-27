@@ -1,23 +1,41 @@
 # work-on-picture
+<h4>
+Hey my name's JB, I tested to make programs based on image processing. Because I think it's really cool and funny ! and to improve my skill in deep learning for my project synergo <br><br>
+The goal of this project is to learn to detect object without external help (from a human) objects from a picture. 
+ 
+For that, we learned to detecte plate. And hope it detect others objects.
+ 
+I had a lot of fun, most of the time! to work on the image for have the best dataset ever ! possible (<em>it doesn't work, blam the dataset</em>)
+
+
+This program is intelligent because it learns by itself and writes itself (to make eye-catching) or this program downloads images on the internet and makes comparaisons..
+
+<br><br>
+
+![diagramme](https://user-images.githubusercontent.com/54853371/67506530-7e390b00-f68d-11e9-8085-913d96b38d0e.png)
 
 
 
 
 
+<br><br><br><br><br>
 
+<strong><h1>STEP ONE</h1></strong>
 
+<h4>We enter a picture. 
+ 
+Then we treat it. Delete background if the background isn't white. Next we separate all object in a new picture. Finally we make a rotation if the objects is'nt horizontal. <br><br>
+ 
+Finally we recuperate the position on the complete picture of the crop for the second step in a position file. So we can say crop picture (independant objet) is here (in the complete scene)</h4>
 
+<br><br>
+![a-ConvertImage](https://user-images.githubusercontent.com/54853371/67152924-c77d0980-f2df-11e9-9a47-8c671cad8bbe.png)
 
-
-
-
-
-
-
-
-
+<br><br><br><br><br>
 
 <strong><h1>STEP TWO</h1></strong>
+
+
 <h4>We try to verify if we have the current object in our model. <br>
 We can have x models with 10 labels.<br><br>
 for example :<br><br>
