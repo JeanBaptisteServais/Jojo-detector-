@@ -3,20 +3,15 @@
 
 <h4>
 Hey my name's JB, I tested to make programs based on image processing. Because I think it's really cool and funny ! <br><br>
-The goal of this project is to learn to detect object without external help (from a human)
-
+The goal of this project is to learn to detect object without external help (from a human) objects from a picture. 
  
-
+ For that, we learned to detecte plate. And hope it detect others objects.
+ 
 I had a lot of fun, most of the time! to work on the image for have the best dataset ever ! possible (<em>it doesn't work, blam the dataset</em>)
 
 
 this program is intelligent because it learns by itself and writes itself (to make eye-catching) or this program downloads images on the internet and makes comparaisons..
 
-
-
-<h4>Maybe it work only on the current type of picture bacause we need to : </h4> <br> 
-
-for the v2 we want detect part of objects, compare it ect but not now so boring boring for now increase the scrap and make loop turns, increase the speed, in any situation detect objects and not that in this scene, do not have a starting object, make a smart system that does not detect a plate on a football field (stop put me keeper ...) because it only work maybe for this type of picture. improve the rewrite system and put more
 
 
 ![diagramme](https://user-images.githubusercontent.com/54853371/67506530-7e390b00-f68d-11e9-8085-913d96b38d0e.png)
@@ -25,7 +20,7 @@ for the v2 we want detect part of objects, compare it ect but not now so boring 
 
 
 
-
+<br><br><br><br><br>
 
 
 
@@ -250,7 +245,9 @@ The result isn't good because it detect a spoon and a fork for a cut and a spoon
 
 
 
+<h4>Maybe it work only on the current type of picture bacause we need to : </h4> <br> 
 
+for the v2 we want detect part of objects, compare it ect but not now so boring boring for now increase the scrap and make loop turns, increase the speed, in any situation detect objects and not that in this scene, do not have a starting object, make a smart system that does not detect a plate on a football field (stop put me keeper ...) because it only work maybe for this type of picture. improve the rewrite system and put more
 
 
 
