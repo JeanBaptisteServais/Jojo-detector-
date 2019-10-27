@@ -158,21 +158,9 @@ Here we delete data destroy by last operations (background who break some pictur
 Indeed we removing small and big contours 1400 < contour > 11000
 
 
-
-
 <h2>Dimension</h2>
 
-
-
-
-
-<h2>Find part</h2>
- for v2
-
-
-
-
-
+We take the max and min points from x and y of the objets of each category composed by 200 pictures.
 
 
 
@@ -184,14 +172,18 @@ Indeed we removing small and big contours 1400 < contour > 11000
 
 <h2>Recuperate dimensions by Thread/Auto programming</h2>
 
-could be ! maybe... maybe an arg** do the same
+Here we make a programme who's "write itself". Indeed, we write a thread program in function of the number of datasets uploaded. 
+
+For example we download 8 category of 200 pictures. The program write itself a program for lunch the thread.
+
+
 
 
 <h1>Step six</h1>
 
 <h2>Supervised learning</h2>
 
- only 4 lines from a tuto
+We use SVC from sklearn who's a vector classification. It allows to do a prediction of a picture.
 
 
 
