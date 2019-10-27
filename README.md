@@ -7,7 +7,7 @@ I tested to make programs based on image processing.<br> Because I think it's re
 
 presentation projet
 
-This is my first real project !
+This is my first real project with picture classifier!
 
 <br><br>
 
