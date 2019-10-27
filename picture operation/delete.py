@@ -59,12 +59,17 @@ def recup_contour(img):
 
 
 
+
+
 def main_deleting(img):
     """
         We deleting on contour
     """
 
-    img = open_picture(img)
-    delete = recup_contour(img)
+    try:
+        img = open_picture(img)
+        delete = recup_contour(img)
 
-    return delete
+        return delete
+    except:
+        return True
