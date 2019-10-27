@@ -9,9 +9,15 @@ presentation projet
 
 This project with picture classifier! <br>
 
+Resum of the project
+
+We want this project to learn by itself to learn to recognize objects.
+
+
 que fais ce programme ?
+
 comment pourquoi ?
-resumé en 2 lignes
+
 
 <br><br>
 
