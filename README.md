@@ -11,7 +11,7 @@ This project with picture classifier! <br>
 
 Resum of the project
 
-We want this project to learn by itself to learn to recognize objects.
+We want this project to learn by itself to learn to recognize objects without external help. Like a personn goes search on internet informations when she doesn't know something.
 
 
 que fais ce programme ?
