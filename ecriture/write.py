@@ -1,19 +1,19 @@
 import importlib
 import ecriture.to_thread
-
-
+import sys
+sys.path.append(r"C:\Users\jeanbaptiste\Desktop\assiette\v2")
 
 def writtte(number):
     
-    with open('ecriture/to_thread.py', 'w') as file:
+    with open('../ecriture/to_thread.py', 'w') as file:
 
         file.write("import os\n")
         file.write('import threading\n')
 
         file.write('from picture_operation.dimension import main_demension\n\n\n')
 
-        file.write('path_data = "dataset/image/dataset"\n')
-        file.write('path_folder = "dataset/image/dataset/{}"\n\n')
+        file.write('path_data = "../dataset/image/dataset"\n')
+        file.write('path_folder = "../dataset/image/dataset/{}"\n\n')
         file.write('liste_path = os.listdir(path_data)\n\n')
 
         file.write('LISTE = []\n\n')
@@ -55,17 +55,3 @@ def writtte(number):
     print("reload fait")
 
     return True
-
-
-
-
-
-
-
-
-
-    
-    
-    
-
-
