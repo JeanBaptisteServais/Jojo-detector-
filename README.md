@@ -1,27 +1,6 @@
 # work-on-picture
 
 
-<h4>
-Hey my name's JB, I tested to make programs based on image processing. Because I think it's really cool and funny ! and to improve my skill in deep learning for my project synergo <br><br>
-The goal of this project is to learn to detect object without external help (from a human) objects from a picture. 
- 
-For that, we learned to detecte plate. And hope it detect others objects.
- 
-I had a lot of fun, most of the time! to work on the image for have the best dataset ever ! possible (<em>it doesn't work, blam the dataset</em>)
-
-
-This program is intelligent because it learns by itself and writes itself (to make eye-catching) or this program downloads images on the internet and makes comparaisons..
-
-<br><br>
-
-![diagramme](https://user-images.githubusercontent.com/54853371/67506530-7e390b00-f68d-11e9-8085-913d96b38d0e.png)
-
-
-
-
-
-<br><br><br><br><br>
-
 
 
 
