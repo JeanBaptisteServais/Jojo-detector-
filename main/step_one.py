@@ -21,6 +21,7 @@ def to_crop(img):
 
     gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
     _,thresh = cv2.threshold(gray,250,255,cv2.THRESH_BINARY_INV)
+
     contours, _= cv2.findContours(thresh, h, points)
 
     for cnt in contours:
@@ -29,6 +30,7 @@ def to_crop(img):
 
     return img[y:y+h, x:x+w], str(int(x+w/2)), str(y)
 
+#to_crop(r"C:\Users\jeanbaptiste\Desktop\assiette\v2\dataset\image\current\currentv3.jpg")
 
 def write_position(positionx, positiony, name, path):
     """We recuperate the position of the last box.
@@ -55,10 +57,14 @@ def step_one(path_folder_current, path_picture, path_position):
 
     #Position objects picture.
     liste = os.listdir(path_folder_current)
-    liste.remove("current.jpg"); liste.remove("current_copy.jpg");
+    try:
+        liste.remove("current.jpg"); liste.remove("current_copy.jpg");
+    except ValueError:
+        pass
 
     #Make rotation. Write their position. And crop them.
     for i in liste:
+        print(path_folder_current + i)
         _, posx, posy = to_crop(open_picture(path_folder_current + i))
         write_position(posx, posy, path_folder_current + i, path_position)
 
