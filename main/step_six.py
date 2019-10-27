@@ -1,3 +1,5 @@
+import os
+
 from training.training import train
 from training.training import head_writting
 from main_function_image import define_size
@@ -16,17 +18,17 @@ def step_six(liste, path_data, path_folder, path_image, path_label,
     #picture folder path
     for i in liste_path:
         picture_folder = os.listdir(path_folder.format(i))
-
+        print(i)
         #less 10 pictures
         if len(picture_folder) > 10 and i != "assiette":
-            for info_size in liste:
+##            for info_size in liste:
 
                 #write their dimensions for training
-                if info_size[2] == path_folder.format(i):
-                    size = define_size(info_size)
-                    write_labels(path_label, no, str(i), no,
-                                 str(size[0]), str(size[1]), no)
-
+##                if info_size[2] == path_folder.format(i):
+##                    size = define_size(info_size)
+##                    write_labels(path_label, no, str(i), no,
+##                                 str(size[0]), str(size[1]), no)
+            size = (20, 100)
             #label and pixels descriptions
             head_writting(csv_name.format(i), size[0] * size[1])
 
