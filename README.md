@@ -1,7 +1,13 @@
 # work-on-picture
 
 
-I had a lot of fun, most of the time! to work on the image for have the best dataset ever ! possible (<em>it doesn't work, blam the dataset</em>).
+<h4>
+Hey my name's JB, I tested to make programs based on image processing. Because I think it's really cool and funny ! <br>
+The goal of this project is to learn to detect object without external help (from a human)
+
+ 
+
+I had a lot of fun, most of the time! to work on the image for have the best dataset ever ! possible (<em>it doesn't work, blam the dataset</em>)
 
 
 this program is intelligent because it learns by itself and writes itself (to make eye-catching) or this program downloads images on the internet and makes comparaisons..
@@ -248,4 +254,4 @@ The result isn't good because it detect a spoon and a fork for a cut and a spoon
 
 
 
-<h4>Hey my name's JB, I tested to make programs based on image processing. Because I think it's really cool and funny ! i tried to make a programm who by the presentation of a complex scene and the learning of detection of a plate would seek several objects at random and automatically detect other objects without explicite objects learning. It based on scrap and download picture on the web. </h4>
+
