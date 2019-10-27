@@ -208,7 +208,7 @@ i think have understood how train a classifier so it's ok for me. How terminator
 
 </p>
 
-Either he takes them away, or he puts them back, each his interpretation ^^ (he's takes them  away: could be cool !, he puts them it's sucks)
+<em><strong>Either he takes them away, or he puts them back, each his interpretation ^^ (he's takes them  away: could be cool !, he puts them it's sucks)</em></strong>
 
 
 
