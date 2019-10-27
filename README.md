@@ -1,6 +1,8 @@
 Presentation
 
-Hey my name's JB, I tested to make programs based on image processing. Because I think it's really cool, funny and it improve my skill in deep learning and programming for my project synergo. <br><br>
+Hey my name's JB, i 25 years old, i a young Web developer i just graduate from 2 month. I coding from a little more than one year.<br>
+
+I tested to make programs based on image processing. Because I think it's really cool, funny and it improve my skill in deep learning and programming for my project synergo. <br><br>
 <br><br>
 
 presentation projet
