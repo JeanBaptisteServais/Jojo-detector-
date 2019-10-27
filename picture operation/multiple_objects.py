@@ -18,11 +18,15 @@ def show_picture(name, image, mode, destroy):
         mode 0 = entrance key  pass to next
         mode y = destroy windows
     """
-
+    
     cv2.imshow(name, image)
     cv2.waitKey(mode)
+    if mode == 1:
+        time.sleep(3)
     if destroy == "y":
         cv2.destroyAllWindows()
+
+
 
 def blanck_picture(img):
     """
@@ -54,7 +58,7 @@ def find_contour(img):
 
 
 def recup_object(img, blanck, contours,
-                 name):
+                 name, mode):
     """
         We detect contours
         for each objects in the scene
@@ -91,7 +95,7 @@ def recup_object(img, blanck, contours,
                         copy[i, j] = 255, 255, 255
 
             #decide to save or delete the copy !
-            save(copy, name, c)
+            save(copy, name, c, "")
 
             c+=1
 
@@ -100,7 +104,7 @@ def recup_object(img, blanck, contours,
 
 
 
-def save(copy, name, counter):
+def save(copy, name, counter, mode):
 
     gray = cv2.cvtColor(copy, cv2.COLOR_BGR2GRAY)
     _,thresh = cv2.threshold(gray, 250, 255, cv2.THRESH_BINARY_INV)
@@ -112,14 +116,19 @@ def save(copy, name, counter):
 
     for cnts in contours:
 
-        #show_picture("copy", copy, 0, "y")
         new_name = str(name[:-4]) + "v" + str(counter) + ".jpg"
+        #show_picture(str(new_name), copy, 1, "y")
         cv2.imwrite(new_name, copy)
-        os.remove(name)
+
+        if mode is "1":
+            try:
+                os.remove(name)
+            except FileNotFoundError:
+                pass
 
 
 
-def take_features_multi_obj(img):
+def take_features_multi_obj(img, mode):
     """
         We open picture
         We resize picture
@@ -127,17 +136,20 @@ def take_features_multi_obj(img):
         We try to detect objects by objects
     """
 
+
     try:
         name = str(img)
 
         img = open_picture(img)
         img = cv2.resize(img, (200, 200))
 
-        #show_picture("img", img, 0, "y")
+        #show_picture("img", img, 0, "")
 
         blanck, contours = find_contour(img)
         copy = recup_object(img, blanck, contours,
-                            name)
+                            name, mode)
+        return copy
+
     except:
         pass
 
