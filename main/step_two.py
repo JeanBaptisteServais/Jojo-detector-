@@ -48,7 +48,7 @@ def recup_label_position(detection):
             if d == "," : x = int(increment);increment = "";
             else : increment += d;
 
-    return name, x, int(increment)
+    return name, x, int(increment),
 
 
 
@@ -93,7 +93,7 @@ def draw_function2(img, img1, i, height, j, width, x, y, name):
     """We put the crop picture on the display picture"""
 
     font = cv2.FONT_HERSHEY_COMPLEX_SMALL;
-    img[j:j + width, i:i + height] = img1
+    #img[j:j + width, i:i + height] = img1
     cv2.line(img, (i + height, j+ width),
              (x + 200, y + 200), (0, 0, 0), 2)
     cv2.putText(img, name, (i,j+width),
@@ -133,28 +133,78 @@ def predictions(labels, images, detections, models, path_models, image, img):
 
         try:
             model = path_models + str(models)
+
             prediction = detection(model, w, h, img)
+
+            if prediction:
+                detections.append([n, recup_position(image)])
+                images.append(image)
+                break
+            else:
+                detections.append(["", recup_position(image)])
+                images.append(image)
+                break
         except:
             pass
 
-        if prediction == l:
-            detections.append([n, recup_position(image)])
-            images.append(image)
-            break
-        else:
-            detections.append(["", recup_position(image)])
-            images.append(image)
-            break
+
+def liste_treatment(detections):
+
+    #delete None:"" or "":None
+    for i in detections:
+        if i[1] == None:
+            detections.remove(i)
+        if i[0] == "" and i[1] == None:
+            detections.remove(i)
+
+    #recup position into dico
+        #pos = []
+    dico = {}
+    for i in detections:
+        dico[i[1]] = []
+
+    #append item to pos
+        #pos = [10, 10]
+    for i in detections:
+        for key, value in dico.items():
+            if i[1] == key:
+                value.append(i[0])
+
+    #delete if there are items and ''
+        #pos = ['', 10, '']
+    for key, value in dico.items():
+        delete = False
+        for i in value:
+            if i != '':
+                delete = True
+        for i in value:
+            if delete is True:
+                for i in value:
+                    if i == "":
+                        value.remove(i)
+
+    #transofr dico into list
+    detections = []
+    for key, value in dico.items():
+        liste_w = []
+        for i in value:
+            liste_w.append(i)
+            liste_w.append(key)
+            
+            detections.append(liste_w)
+            liste_w = []
+
+
+    return detections
+
 
 
 #detection, label
 from object_detection.objects_detection import detection
 from dataset.information_data.labels_function import read
 from dataset.information_data.labels_function import treatment_read
-
 def step_two(path_current, path_copy,
              path_folder_current, path_models, path_label):
-
 
     liste_picture = os.listdir(path_folder_current)
     liste_picture.remove("current.jpg")
@@ -166,17 +216,22 @@ def step_two(path_current, path_copy,
         img = open_picture(image)
 
         for models in model_list:
+
             labels = read(path_label, str(models))
             predictions(labels, images, detections, models,
                         path_models, image, img)
 
+
+    detections = liste_treatment(detections)
+
     for nb, i in enumerate(detections):
 
         if i[1] != None:
+            #Here
             img = draw(i, nb, images[nb], path_current, path_copy)
             show_picture("display", img, 1, "y")
             save_picture(path_copy, img)
-
-
+    show_picture("display", img, 0, "y")
+    #print(detections)
     return detections
 
