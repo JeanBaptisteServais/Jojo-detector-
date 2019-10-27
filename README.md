@@ -225,7 +225,7 @@ i think have understood how train a classifier so it's ok for me. How terminator
 
 </p>
 
-The result isn't good because it detect a spoon and a fork for a cut and a spoon BUT we can detect 
+The result isn't good because it detect a spoon and a fork for a cut and a spoon BUT we can detect spoon at 100 % and not knife and not 100 % fork....
 
 
 
