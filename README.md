@@ -220,8 +220,12 @@ i think have understood how train a classifier so it's ok for me. How terminator
 
 
 
+<p align="center">
+ <img width="460" height="300" src="https://user-images.githubusercontent.com/54853371/67638289-12e87680-f8e3-11e9-8054-be74f2d61b04.jpg">
 
+</p>
 
+The result isn't good because it detect a spoon and a fork for a cut and a spoon BUT we can detect 
 
 
 
