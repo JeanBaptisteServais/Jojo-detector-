@@ -7,8 +7,11 @@ I tested to make programs based on image processing.<br> Because I think it's re
 
 presentation projet
 
-This is my first real project with picture classifier! <br>
-bah chai pas si c du deep learning du coup
+This project with picture classifier! <br>
+
+que fais ce programme ?
+comment pourquoi ?
+resumé en 2 lignes
 
 <br><br>
 
