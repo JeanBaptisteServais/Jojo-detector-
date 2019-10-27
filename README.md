@@ -2,7 +2,7 @@
 
 
 <h4>
-Hey my name's JB, I tested to make programs based on image processing. Because I think it's really cool and funny ! <br>
+Hey my name's JB, I tested to make programs based on image processing. Because I think it's really cool and funny ! <br><br>
 The goal of this project is to learn to detect object without external help (from a human)
 
  
