@@ -311,6 +311,8 @@ def training(X, Y, model_name):
     model = svm.SVC(kernel="linear",C=2)
     #model = KNeighborsClassifier(n_neighbors=3)
     #fit method
+
+
     model.fit(X_train,Y_train)
 
     #create model
@@ -351,28 +353,4 @@ def train(csv_name, model_name):
 
     #And make a model
     training(X, Y, model_name)
-
-
-
-##csv_name = r"C:\Users\jeanbaptiste\Desktop\assiette\v2\training\csv\csv\1.csv"
-##
-##head_writting(csv_name, 2500)
-##
-##path_folder = r"C:\Users\jeanbaptiste\Desktop\assiette\v2\dataset\image\dataset\assiette"
-##path_picture = r"C:\Users\jeanbaptiste\Desktop\assiette\v2\dataset\image\dataset\assiette\{}"
-##picture_writting(csv_name, path_folder, path_picture, 50, 50, "1")
-##
-##path_folder = r"C:\Users\jeanbaptiste\Desktop\assiette\v2\dataset\image\dataset\N"
-##path_picture = r"C:\Users\jeanbaptiste\Desktop\assiette\v2\dataset\image\dataset\N\{}"
-##picture_writting(csv_name, path_folder, path_picture, 50, 50, "0")
-##
-##
-##model_name = r"C:\Users\jeanbaptiste\Desktop\assiette\v2\training\models\models\1"
-#train(r"C:\Users\jeanbaptiste\Desktop\assiette\v2\training\csv\in_training\bol.csv",
-#      r"C:\Users\jeanbaptiste\Desktop\assiette\v2\training\models\in_training\bol")
-
-
-
-
-
 
