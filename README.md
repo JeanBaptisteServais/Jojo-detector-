@@ -5,18 +5,7 @@
 
 
 
-<strong><h1>STEP ONE</h1></strong>
 
-<h4>We enter a picture. 
- 
-Then we treat it. Delete background if the background isn't white. Next we separate all object in a new picture. Finally we make a rotation if the objects is'nt horizontal. <br><br>
- 
-Finally we recuperate the position on the complete picture of the crop for the second step in a position file. So we can say crop picture (independant objet) is here (in the complete scene)</h4>
-
-<br><br>
-![a-ConvertImage](https://user-images.githubusercontent.com/54853371/67152924-c77d0980-f2df-11e9-9a47-8c671cad8bbe.png)
-
-<br><br><br><br><br>
 
 
 
