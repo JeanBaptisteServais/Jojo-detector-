@@ -114,8 +114,8 @@ def find_points(listex, listey):
     Xy_max = max(listex)
     X_max = listey[listex.index(max(listex))]
 
-    print(Xy_min, X_min)
-    print(Xy_max, X_max)
+    #print(Xy_min, X_min)
+    #print(Xy_max, X_max)
 
     return X_min, Xy_min, X_max, Xy_max
 
@@ -186,7 +186,7 @@ def early_picture(img):
     """
 
     #open picture and resize it
-    img = cv2.resize(open_picture, (200, 200))
+    img = cv2.resize(open_picture(img), (200, 200))
     #add white border
     img = cv2.copyMakeBorder(img, 50, 50, 50, 50,
                              cv2.BORDER_CONSTANT, value=(255, 255, 255))
@@ -377,6 +377,51 @@ def top_bot_third(angle, copy, X_min, Xy_min, X_max, Xy_max,
 
 
 
+def bot_top(copy, X_min, Xy_min, X_max, Xy_max,
+            img, img_final):
+
+
+    angle = angle_function(X_min, Xy_min, X_max, Xy_max)
+
+    cv2.circle(copy, (Xy_min, X_min), 6, (0, 255, 0), 6)
+    cv2.circle(copy, (Xy_max, X_max), 6, (255, 255, 0), 6)
+
+    rotated = rotation(copy, angle)
+    img_final = rotation(img_final, angle)
+
+    c = 0;go = True;last = 0;cnter = 0;ok = 0
+
+    while go:
+
+        try:
+            x1, y1 = run_a_picture(rotated, (0, 255, 0), "points")
+            x2, y2 = run_a_picture(rotated, (255, 255, 0), "points")
+        except:
+            go = False
+            #picture loosed colors
+
+        angle, ok, cnter, go = \
+        parameters_rotation(y1, y2, last, ok, angle,
+                            go, cnter, 41, 39)
+
+        if abs(angle) > 40:
+            rotated = rotation(rotated, c)
+            img_final = rotation(img_final, c)
+            
+        elif abs(angle) < 40:
+           rotated = rotation(rotated, -c)
+           img_final = rotation(img_final, -c)
+
+        last = abs(y1 - y2)
+
+        c+=1
+
+        if abs(y1 - y2) <= 15:
+            go = False
+
+    return img_final
+
+
 
 def define_rotation(X_min, Xy_min, X_max, Xy_max,
                     copy, img, img_final, picture):
@@ -420,21 +465,26 @@ def define_rotation(X_min, Xy_min, X_max, Xy_max,
         img_final = normal_angle(img)
 
     #show_picture("img_final", img_final, 0, "y")
-    cv2.imwrite(picture, img_final)
+    #cv2.imwrite(picture, img_final)
 
-
+    return img_final
 
 
 def take_features_position(picture):
 
-    print(picture)
+    try:
 
-    #Make copies and make a border
-    img, copy, img_final = early_picture(picture)
-    #Find contour
-    copy = first_contour(img, copy)
-    #Find the header and the footer of the object
-    X_min, Xy_min, X_max, Xy_max = delimited_by_points(copy)
-    #Find the best, ok rotation !
-    define_rotation(X_min, Xy_min, X_max, Xy_max,
-                    copy, img, img_final, str(picture))
+        #Make copies and make a border
+        img, copy, img_final = early_picture(picture)
+        #Find contour
+        copy = first_contour(img, copy)
+        #Find the header and the footer of the object
+        X_min, Xy_min, X_max, Xy_max = delimited_by_points(copy)
+        #Find the best, ok rotation !
+        img_final = define_rotation(X_min, Xy_min, X_max, Xy_max,
+                                    copy, img, img_final, str(picture))
+
+
+        return img_final
+    except:
+        pass
