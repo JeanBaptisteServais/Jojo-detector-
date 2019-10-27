@@ -74,6 +74,8 @@ def treatment_read(liste):
 
     informations_object["dimension"].append(increment)
 
+    
+
     try:
         w = int(informations_object["dimension"][0])
         h = int(informations_object["dimension"][1])
@@ -82,4 +84,4 @@ def treatment_read(liste):
 
         return informations_object, w, h, l, n
     except ValueError:
-        return informations_object, w, h
+        return informations_object, w, h, "", ""
