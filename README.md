@@ -1,6 +1,6 @@
 # work-on-picture
 
-ooooooooh  c chiant
+
 <h4>
 Hey my name's JB, I tested to make programs based on image processing. Because I think it's really cool and funny ! and to improve my skill in deep learning for my project synergo <br><br>
 The goal of this project is to learn to detect object without external help (from a human) objects from a picture. 
@@ -32,7 +32,7 @@ This program is intelligent because it learns by itself and writes itself (to ma
  
 Finally we recuperate the position on the complete picture of the crop for the second step in a position file. So we can say crop picture (independant objet) is here (in the complete scene)</h4>
 
-
+<br><br><br><br><br>
 
 <strong><h1>STEP TWO</h1></strong>
 <h4>We try to verify if we have the current object in our model. <br>
