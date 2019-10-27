@@ -14,9 +14,9 @@ We want this project to learn by itself to learn to recognize objects without ex
 
 <h3>what is this project doing</h3>
 
-In some, we learn our program some objects and present to it a picture. Here we learn to it a plate and present to it a picture with a plate, two spoons, a fork and a knife.
+In some, we learn our program some objects and present to it a picture. <em>Here we learn to it a plate and present to it a picture with a plate, two spoons, a fork and a knife.</em>
 <br>
-It will cut all objects and rewrite it in a new picture. For each pictures we'll try to detect our objects from our models. Here we try to detect the plate and rewrite all others objects into new picture.
+It will cut all objects and rewrite it in a new picture. For each pictures we'll try to detect our objects from our models. <em>Here we try to detect the plate and rewrite all others objects into new picture.</em>
 
 comment pourquoi ?
 
