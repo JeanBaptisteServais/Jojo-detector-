@@ -2,7 +2,7 @@ Presentation
 
 Hey my name's JB, i 25 years old, French, i a young Web developer i just graduate from 2 month. I coding from a little more than one year.<br>
 
-I tested to make programs based on image processing. Because I think it's really cool and funny. I love picture and the pixel's problem aspects !
+I tested to make programs based on image processing. Because I think it's really cool and funny. I love picture and the pixel's problems aspects !
 <br><br>
 
 presentation projet
