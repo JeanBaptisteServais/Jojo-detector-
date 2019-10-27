@@ -6,6 +6,9 @@ I tested to make programs based on image processing.<br> Because I think it's re
 <br><br>
 
 presentation projet
+
+This is my first real project !
+
 <br><br>
 
 
