@@ -11,6 +11,9 @@
  
 Finally we recuperate the position on the complete picture of the crop for the second step in a position file. So we can say crop picture (independant objet) is here (in the complete scene)</h4>
 
+<br><br>
+![a-ConvertImage](https://user-images.githubusercontent.com/54853371/67152924-c77d0980-f2df-11e9-9a47-8c671cad8bbe.png)
+
 <br><br><br><br><br>
 
 <strong><h1>STEP TWO</h1></strong>
@@ -80,7 +83,7 @@ not a robust background because it remove an unify background because we just ne
 
 Here we recover and separate objects from each other in a scene like:
 
-![a-ConvertImage](https://user-images.githubusercontent.com/54853371/67152924-c77d0980-f2df-11e9-9a47-8c671cad8bbe.png)
+
 
 <em>Scene with multiple objects to object by object</em>
 
