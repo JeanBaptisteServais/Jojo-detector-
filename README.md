@@ -12,8 +12,10 @@ I tested to make programs based on image processing.<br> Because I think it's re
 
 We want this project to learn by itself to learn to recognize objects without external help. Like a personn goes search on internet informations when she doesn't know something.
 
+<h3>what is this project doing</h3>
 
-que fais ce programme ?
+In some, we learn our program some objects, here it's a plate.
+
 
 comment pourquoi ?
 
