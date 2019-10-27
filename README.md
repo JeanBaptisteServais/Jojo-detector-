@@ -64,9 +64,14 @@ This second step is essentially for display the picture, recup dimension, recup 
 
 
 <h1>Step Three</h1>
+
 <h2>scrap</h2>
 
+ - Here we search category of the detection, here the plate from wikipédia page from google (wikipedia categorie:plate). 
 
+ - After have found the wikipédia page we go on it and recup all href
+ 
+ - and continue to filter word to catefgory for example we got washing up who's gave us spoon, fork ect... food -> tomato ect...
 
 
 
