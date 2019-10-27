@@ -1,3 +1,6 @@
+import sys
+sys.path.append(r"C:\Users\jeanbaptiste\Desktop\assiette\v2")
+
 import os
 import cv2
 import joblib
@@ -42,27 +45,26 @@ def to_list(thresh):
 
 
 
-def detection(model, w, h, img):
-
+def detection(model, width, height, img):
+    
     hiear = cv2.RETR_EXTERNAL ;points = cv2.CHAIN_APPROX_SIMPLE;
-
+    #img = open_picture(img)
     model = joblib.load(model)
 
-    img = cv2.resize(img, (w, h))
-   
+    img = cv2.resize(img, (width, height))
+
     gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
     _,thresh = cv2.threshold(gray,245,255,cv2.THRESH_BINARY_INV)
+
     contours,h=cv2.findContours(thresh, hiear, points)
     blanck = blanck_picture(img)
 
     for cnts in contours:
         cv2.fillPoly(blanck, pts =[cnts], color=(255,255,255))
 
-    #show_picture("blanck", blanck, 0, "")
-
     grayblanck = cv2.cvtColor(blanck, cv2.COLOR_BGR2GRAY)
     contours,h=cv2.findContours(grayblanck, hiear, points)
-
+    
 
     maxi = 0; non = False;
     for c in contours:
@@ -70,17 +72,22 @@ def detection(model, w, h, img):
         else:
             if cv2.contourArea(c) > maxi:
                 maxi = cv2.contourArea(c)
-
+  
+    blanck1 = blanck_picture(img)
     if non is False:
-        blanck1 = blanck_picture(img)
         for c in contours:
             if cv2.contourArea(c) == maxi:
                 cv2.fillPoly(blanck1, pts =[c], color=(255,255,255))
+                x, y, w, h = cv2.boundingRect(c)
 
     blanck1 = cv2.cvtColor(blanck1, cv2.COLOR_BGR2GRAY)
-
+    blanck1 = blanck1[y:y+h, x:x+w]
+    blanck1 = cv2.resize(blanck1, (width, height))
+    
     data = to_list(blanck1)
     predictions = model.predict([data])
 
+    #show_picture("784", blanck1, 0, "")
+    #print(predictions)
     return predictions[0]
 
