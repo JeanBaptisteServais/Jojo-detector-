@@ -1,6 +1,6 @@
 # work-on-picture
 
-
+ooooooooh  c chiant
 <h4>
 Hey my name's JB, I tested to make programs based on image processing. Because I think it's really cool and funny ! and to improve my skill in deep learning for my project synergo <br><br>
 The goal of this project is to learn to detect object without external help (from a human) objects from a picture. 
