@@ -14,10 +14,10 @@ We want this project to learn by itself to learn to recognize objects without ex
 
 <h3>what is this project doing</h3>
 
-In some, we learn our program some objects and present to it a picture. <em>Here we learn to it a plate and present to it a picture with a plate, two spoons, a fork and a knife.</em>
+In some, we <strong>learn initially</strong> our program some objects and present to it a picture. <em>Here we learn to it a plate and present to it a picture with a plate, two spoons, a fork and a knife.</em>
 <br>
-It will cut all objects and rewrite it in a new picture. For each pictures we'll try to detect our objects from our models. <em>Here we try to detect the plate and rewrite all others objects into new picture.</em><br>
-After detection of our objects it'll search category of our detection, <em>Here it'll search plate on internet and search all other items from the category (washing up) of plate and return items. We download all of this items and train it.
+It will cut all objects and rewrite it in a new picture. For each pictures we'll <strong>try to detect our objects from our models. </strong><em>Here we try to detect the plate and rewrite all others objects into new picture.</em><br>
+After detection of our objects it'll <strong>search category of our detection</strong>, <em>Here it'll search plate on internet and search all other items from the category (washing up) of plate and return items. We <strong>download all of this items and train it.</strong> and remake a detection.
 
 comment pourquoi ?
 
