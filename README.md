@@ -1,20 +1,10 @@
                                                                                                                                                                        
-<strong><h1>STEP ONE</h1></strong>
-
-The first step is for <strong>enter our picture</strong> And from this entrance we <strong>treat picture.</strong> Care it only work with our picture. why? because it's so exausting...
-<br>
-So we treat the picture. Indeed we:
-<br>
-- <strong>clean the background</strong> if the background of the picture is different from a white background we replace it by a white background.
-
-- <strong>Separate object in case where there are too many objects</strong> and rewrite them in a new picture.
-
-- <strong>We recuperate positions</strong> of all of the last objects from the inital image for display it at the end.
-
-- Finally <strong>Make a rotation of objects in case where objects are horizontally or leaning</strong>
+<strong><h1>STEP TWO</h1></strong>
 
 
-
+<p align="center">
+  <img width="460" height="300" src="https://user-images.githubusercontent.com/54853371/67530531-9de92700-f6bf-11e9-9baa-2014c7e99217.jpg">
+</p>
 
 
 
