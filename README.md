@@ -14,7 +14,7 @@ So we treat the picture, we clean the background (if the background isn't white)
   <img width="460" height="250" src="https://user-images.githubusercontent.com/54853371/67151961-803a4d00-f2ce-11e9-8b6c-12888f8b0f5c.png">
 </p>
 
-Here we dont want the accuraccy, we just want the form. For apply a threshold filter who's bynarize the picture, who's make the picture in black and white.
+Here we dont want the accuraccy, we just want the form. For apply a threshold filter who's bynarize the picture, who's make the picture in black and white and give us the form of the object (here the spoon'll only white and the background only black.)
 
 
 
