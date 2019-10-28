@@ -4,6 +4,7 @@
 
 <strong><h1>STEP TWO</h1></strong>
 
+Sometimes we have many objects on our 
 
 
 <br><br>
