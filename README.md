@@ -27,20 +27,16 @@ After detection of our objects it'll <strong>search category of our detection</s
 We know importance of dataset. Imagine a cloud just for IA programs. We know the new dream to archieve an strong IA. The dream to learn itself and solving itself new problem and to writte itself program.
 <br><br>
 
-spoiler: <details>We tried with low result. But it didn't answer to the problematic it just for catching eyes ^^</details>
-
-
-
+spoiler: <details>We tried with low result. But it didn't answer to the problematic it just for catching eyes ^^
 
 <br><br>
 
-
-
-
-
-<br><br>
+<h2>This is what we do in real</h2>
 
 ![diagramme](https://user-images.githubusercontent.com/54853371/67506530-7e390b00-f68d-11e9-8085-913d96b38d0e.png)
+
+
+</details>
 
 <br><br>
 
