@@ -1,7 +1,8 @@
                                                                                                                                                                        
 <strong><h1>STEP TWO</h1></strong>
 
-For remember we have objects in memory, in our database. <em>Here a plate.</em>
+So, we course the picture to search eventually an object from our database. <em>Here we have learn a plate.</em> and try to detect it.
+
 
 <p align="center">
   <img width="400" height="250" src="https://user-images.githubusercontent.com/54853371/67530531-9de92700-f6bf-11e9-9baa-2014c7e99217.jpg">
