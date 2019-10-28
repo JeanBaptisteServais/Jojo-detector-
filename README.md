@@ -1,8 +1,9 @@
 
 <h1>Step Fourth</h1>
 
-Now we have our objects from internet and we'll try to make a learning to the program and finally detect our unknows objects. I've a big repository syntaxic
+Now we have our objects from internet and we'll try to make a learning to the program and finally detect our unknows objects. 
 
+We'll download 200 objects of this last search.
 
 
 
