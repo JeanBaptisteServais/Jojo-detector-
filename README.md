@@ -15,7 +15,7 @@ Now we can search on internet, environement of computer, library of computer if 
  
  we <strong>got</strong> plate who's <strong>gave</strong> washing up who's <strong>gave</strong> spoon, fork, food ect...
 
-But food isn't a category of object so we continue to filter word to category and food gave tomato  ect... (i don't know if it doing it but it's "ideal" version)
+But food isn't a category of object so we continue to filter word to category and food gave tomato  ect... (i don't know if it doing it but it's "ideal" scrap version)
 
 <br><br>
 
