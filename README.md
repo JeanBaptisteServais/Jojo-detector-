@@ -6,7 +6,7 @@
 
 This first step is for entrance our picture. From this entrance we try to treat picture. Care it only work with our picture. why? because it's so exausting...
 <br>
-So we treat the picture, we clean the background (if the background isn't white, we trying to take the max contour (except the highter who's the frame contour.)) From this we can apply a filter, the grascal and the thresold who's binarized the picture, who's make the picture in white and black. merde chai pas enfete avec le noir jcrois qu'on pouvait pas  jvai voir
+So we treat the picture, we clean the background (if the background isn't white, we trying to take contours (except the smaller contour who's represent noise, pixels that we do not want)
 
 
 
