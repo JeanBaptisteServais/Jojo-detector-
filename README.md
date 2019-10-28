@@ -49,7 +49,7 @@ We know importance of dataset. Imagine a cloud just for IA programs. We know the
 
 This first step is for entrance our picture. From this entrance we try to treat picture. Care it only work with our picture. why? because it's so exausting...
 <br>
-So we treat the picture, we clean the background (if the background isn't white). From that we trying to take contours (except the smaller contour who's represent noise, pixels that we do not want), so we try to take objects in the picture. And to copy them in a new white picture. We have a white in most of the cases, background !
+So we treat the picture, we clean the background 
 
 
 
