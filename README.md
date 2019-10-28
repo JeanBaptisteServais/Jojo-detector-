@@ -18,7 +18,7 @@ Here we dont want the accuraccy, we just want the form. For apply a threshold fi
 
 <p align="right">
  
-<img width="460" height="100" src="https://user-images.githubusercontent.com/54853371/67644702-2bc54c00-f924-11e9-81de-ca7e3b34e6ea.png">
+<img width="200" height="200" src="https://user-images.githubusercontent.com/54853371/67644702-2bc54c00-f924-11e9-81de-ca7e3b34e6ea.png">
 
 </p>
 
