@@ -9,7 +9,9 @@ So we treat the picture. Indeed we:
 
 - <strong>Separate object in case where there are too many objects</strong> and rewrite them in a new picture.
 
-- <strong>Make a rotation of objects in case where objects are horizontally or leaning</strong>
+- <strong>We recuperate position</strong> of all of the last objects from the inital image for display it at the end.
+
+- Finally <strong>Make a rotation of objects in case where objects are horizontally or leaning</strong>
 
 
 
