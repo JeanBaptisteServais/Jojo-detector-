@@ -1,9 +1,11 @@
                                                                                                                                                                        
 <strong><h1>STEP ONE</h1></strong>
 
-This first step is for entrance our picture. From this entrance we try to treat picture. Care it only work with our picture. why? because it's so exausting...
+The first step is for <strong>enter our picture.</strong>
+
+From this entrance we <strong>treat picture.</strong> Care it only work with our picture. why? because it's so exausting...
 <br>
-So we treat the picture, we clean the background 
+So we treat the picture, <strong>we clean the background/strong> if the background of the picture is different from a white background we replace it by a white background.
 
 
 
