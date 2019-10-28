@@ -22,13 +22,6 @@ After detection of our objects it'll <strong>search category of our detection</s
 <br><br>
 
 
-presentation projet
-<br><br>
-pourquoi ? probelmatique
-<br><br>
-
-architecture en quelques phrases
-<br>
 ![diagramme](https://user-images.githubusercontent.com/54853371/67506530-7e390b00-f68d-11e9-8085-913d96b38d0e.png)
 
 <br><br>
