@@ -18,9 +18,9 @@ So we treat the picture, we clean the background (if the background isn't white)
 Here we dont want the accuraccy, we just want the form. For apply a threshold filter who's bynarize the picture, who's make the picture in black and white and give us the form of the object (here the spoon'll only white and the background only black.)
 
 
-for the next we just want :
+We make it because for the next we just want :
 
-<p align="right">
+<p align="left">
  
 <img width="200" height="200" src="https://user-images.githubusercontent.com/54853371/67644702-2bc54c00-f924-11e9-81de-ca7e3b34e6ea.png">
 
