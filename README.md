@@ -4,7 +4,7 @@
 So, we course the picture to search eventually an object from our database. <em>Here we have learn a plate.</em> and try to detect it.
 
 But how can we repear us in the case where we have 50 models composed by each 9 labels ?<br>
-So we make a label file who say to us the name of the model, the name of the object, the label of this object, the name of his part and his dimension:
+So we make a label file who say to us <strong>the name of the model, the name of the object, the label of this object, the name of his part and his dimension</strong>
 <br> 
 
 For example :
