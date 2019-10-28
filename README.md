@@ -1,19 +1,21 @@
 
 <h1>Step Fourth</h1>
 
+Now we have our objects from internet and we'll try to make a learning to the program and finally detect our unknows objects. I've a big repository syntaxic
+
+
+
+
+
+
+<br><br>
+
+
+<h1>Step Five</h1>
+
 Here we apply fourth or five treatments (five for a next version who's gave part of the objects).
-
-
-
-
 <br><br>
 
-<br><br>
-3
-<br><br>
-4
-<br><br>
-5
 <br><br>
 6
 <br><br>
