@@ -3,7 +3,7 @@
 
 We have the last detection the plate.
 
-Now we can search on internet, "environement of computer, library of computer if we want"
+Now we can search on internet, environement of computer, library of computer if we want.
 
 
 <br><br>
