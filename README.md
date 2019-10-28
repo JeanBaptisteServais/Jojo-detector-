@@ -11,7 +11,7 @@ So we treat the picture, we clean the background (if the background isn't white)
 <strong>For example:</strong>
 
 <p align="center">
-  <img width="460" height="300" src="https://user-images.githubusercontent.com/54853371/67151961-803a4d00-f2ce-11e9-8b6c-12888f8b0f5c.pngg">
+  <img width="460" height="300" src="https://user-images.githubusercontent.com/54853371/67151961-803a4d00-f2ce-11e9-8b6c-12888f8b0f5c.png">
 </p>
 
 
