@@ -5,10 +5,13 @@ The first step is for <strong>enter our picture.</strong>
 
 From this entrance we <strong>treat picture.</strong> Care it only work with our picture. why? because it's so exausting...
 <br>
-So we treat the picture, <strong>we clean the background/strong> if the background of the picture is different from a white background we replace it by a white background.
+So we treat the picture. Indeed we:
+<br>
+- <strong>clean the background</strong> if the background of the picture is different from a white background we replace it by a white background.
 
+- <strong>Separate object in case where there are too many objects</strong> and rewrite them in a new picture.
 
-
+- <strong>Make a rotation of objects in case where objects are horizontally or leaning</strong>
 
 
 
@@ -28,7 +31,7 @@ So we treat the picture, <strong>we clean the background/strong> if the backgrou
 
 <strong><h1>STEP TWO</h1></strong>
 
-Sometimes we have many objects on our 
+
 
 
 <br><br>
