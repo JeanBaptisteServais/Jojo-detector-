@@ -27,7 +27,7 @@ After detection of our objects it'll <strong>search category of our detection</s
 We know importance of dataset. Imagine a cloud just for IA programs. We know the new dream to archieve an strong IA. The dream to learn itself and solving itself new problem and to writte itself program.
 <br><br>
 
-<strong>spoiler:</strong> 
+<strong>Our answer:</strong> 
 
 <details>We tried with low result. But it didn't answer to the problematic it just for catching eyes ^^
 
