@@ -4,7 +4,7 @@
 So, we course the picture to search eventually an object from our database. <em>Here we have learn a plate.</em> and try to detect it.
 
 
-We make a label file who say to us <strong>the name of the model, the name of the object, the label of this object, the name of his part and his dimension</strong>
+We make a label file who say to us <strong>the name of the model, the name of the object, the label of this object, the name of his part and his dimension</strong>.
 <br> 
 
 For example : spoon spoon 1 handle,tank 50x50
@@ -18,6 +18,7 @@ Now we can detect objects in memory like that :
 
 <strong>Finally</strong> we can recup the detection and try to make a reconciliation of object liaison from a situation. We serve to a plate in one situation for eat, so we search all others objects who can be use in the situation.
 
+<strong>why did we do a label file ?</strong> We need the dimension for detect an object. For example a plate can be 50 cm width and 50 cm height but a spoon need to have for example 5 cm width and 20 cm height.
 
 
 
