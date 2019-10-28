@@ -20,7 +20,7 @@ It will cut all objects and rewrite it in a new picture. For each pictures we'll
 After detection of our objects it'll <strong>search category of our detection</strong>, <em>Here it'll search plate on internet and search all other items from the category (washing up) of plate and return items. We <strong>download all of this items and train it.</strong> and remake a detection.
 
 <br><br>
-
+</em>
 
 <h1> Problematic </h1>
 
