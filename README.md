@@ -1,9 +1,7 @@
                                                                                                                                                                        
 <strong><h1>STEP ONE</h1></strong>
 
-The first step is for <strong>enter our picture.</strong>
-
-From this entrance we <strong>treat picture.</strong> Care it only work with our picture. why? because it's so exausting...
+The first step is for <strong>enter our picture</strong> And from this entrance we <strong>treat picture.</strong> Care it only work with our picture. why? because it's so exausting...
 <br>
 So we treat the picture. Indeed we:
 <br>
