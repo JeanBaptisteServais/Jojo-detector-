@@ -11,11 +11,10 @@ So we treat the picture, we clean the background (if the background isn't white)
 <strong>For example:</strong>
 
 <p align="center">
-  <img width="460" height="300" src="https://user-images.githubusercontent.com/54853371/67152924-c77d0980-f2df-11e9-9a47-8c671cad8bbe.png">
+  <img width="460" height="300" src="https://user-images.githubusercontent.com/54853371/67151961-803a4d00-f2ce-11e9-8b6c-12888f8b0f5c.pngg">
 </p>
 
 
-![aa-ConvertImage](https://user-images.githubusercontent.com/54853371/67151961-803a4d00-f2ce-11e9-8b6c-12888f8b0f5c.png)
 
 
 
