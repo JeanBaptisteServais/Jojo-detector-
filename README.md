@@ -1,6 +1,22 @@
 <h1>THE HEIGHT STEPS</h1>
 <br><br>
+
+
 <strong><h1>STEP ONE</h1></strong>
+
+This first step is for entrance our picture. From this entrance we try to treat picture. Care it only work with our picture. why? because it's so exausting...
+
+
+
+
+
+
+
+
+
+
+
+
 <br><br>
 2
 <br><br>
