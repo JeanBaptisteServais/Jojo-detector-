@@ -22,12 +22,11 @@ After detection of our objects it'll <strong>search category of our detection</s
 <br><br>
 
 <h1>answer to a problem</h1>
+
 <br><br>
 
-Human complex's to create or just me i don't know.<br>
-We know importance of dataset. Imagine a cloud just for IA program. A life for comporteur 
 
-ca y est ca part en couille
+
 
 
 <br><br>
