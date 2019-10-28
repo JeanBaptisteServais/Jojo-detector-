@@ -33,8 +33,8 @@ We know importance of dataset. Imagine a cloud just for IA programs. We know the
 
 <br><br>
 
-<h2>This is what we do in real. <br>
-We try to detect unknow objects from plate.</h2>
+<h2>This is what we do in real.</h2> <br>
+<h3>We try to detect unknow objects from plate by learning from google image.</h3>
 
 ![diagramme](https://user-images.githubusercontent.com/54853371/67506530-7e390b00-f68d-11e9-8085-913d96b38d0e.png)
 
