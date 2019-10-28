@@ -21,6 +21,15 @@ After detection of our objects it'll <strong>search category of our detection</s
 
 <br><br>
 
+<h1>answer to a problem</h1>
+<br><br>
+
+Human complex's to create or just me i don't know.<br>
+We know importance of dataset. Imagine a cloud just for IA program. A life for comporteur 
+
+
+
+<br><br>
 
 ![diagramme](https://user-images.githubusercontent.com/54853371/67506530-7e390b00-f68d-11e9-8085-913d96b38d0e.png)
 
