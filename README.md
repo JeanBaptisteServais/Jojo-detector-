@@ -22,8 +22,9 @@ After detection of our objects it'll <strong>search category of our detection</s
 <br><br>
 
 
-<h1> Problematic </h1>
+<h1>Problematic</h1>
 
+We know importance of dataset. Imagine a cloud just for IA programs. We know the new dream to archieve an strong IA. Here the program try by far very far to learn itself and to solving itself a new problem.
 
 
 
