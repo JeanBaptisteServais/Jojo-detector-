@@ -8,7 +8,7 @@ This first step is for entrance our picture. From this entrance we try to treat 
 <br>
 So we treat the picture, we clean the background (if the background isn't white). From that we trying to take contours (except the smaller contour who's represent noise, pixels that we do not want), so we try to take objects in the picture. And to copy them in a new white picture. We have a white in most of the cases, background !
 
-<center>For example:</center>
+<strong>For example:</strong>
 
 <p align="center">
   <img width="460" height="300" src="https://user-images.githubusercontent.com/54853371/67152924-c77d0980-f2df-11e9-9a47-8c671cad8bbe.png">
