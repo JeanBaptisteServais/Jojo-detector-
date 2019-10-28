@@ -19,9 +19,6 @@ In some, we <strong>learn initially</strong> our program some objects and presen
 It will cut all objects and rewrite it in a new picture. For each pictures we'll <strong>try to detect our objects from our models. </strong><em>Here we try to detect the plate and rewrite all others objects into new picture.</em><br>
 After detection of our objects it'll <strong>search category of our detection</strong>, <em>Here it'll search plate on internet and search all other items from the category (washing up) of plate and return items. We <strong>download all of this items and train it.</strong> and remake a detection.
 
-comment pourquoi ?
-
-
 <br><br>
 
 
@@ -29,7 +26,13 @@ presentation projet
 <br><br>
 pourquoi ? probelmatique
 <br><br>
+
 architecture en quelques phrases
+<br>
+![diagramme](https://user-images.githubusercontent.com/54853371/67506530-7e390b00-f68d-11e9-8085-913d96b38d0e.png)
+
+<br><br>
+
 <br><br>
 les étapes + comment ca marche
 <br><br>
