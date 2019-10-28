@@ -7,7 +7,7 @@ Now we can search on internet, environement of computer, library of computer if 
 
  - Here we search category of the detection, here the plate from google who's give us : "wikipedia category:plate". 
 
- - After have found the wikipédia page we go on it and recup all href.
+ - After have found the wikipédia page we go on it and recup all href (In our case only the 10 firsts).
 
  - and continue to filter word to category 
  
