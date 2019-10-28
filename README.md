@@ -1,7 +1,9 @@
 
 <h1>Step Three</h1>
 
+We have the last detection the plate.
 
+Now we can search on internet, "environement of computer, library of computer if we want"
 
 
 <br><br>
