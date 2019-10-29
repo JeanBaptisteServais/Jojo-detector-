@@ -2,8 +2,9 @@
 
 <h3>Multiple objects</h3>
 
-Here we recover and separate objects from each other in a scene like:
+We recover and separate objects from each other in a scene like:
 
+Here we have many knife, again we found contours by a thresholding to 250 255, if the pixel value is less 250 this pixel is black or 0 else the pixel is define to white or 255.
 
 
 <p align="left">
