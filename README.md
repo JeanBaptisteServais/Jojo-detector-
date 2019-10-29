@@ -8,7 +8,7 @@ Here we apply fourth or five treatments (five for a next version who's gave part
 <h3>Background</h3>
 
 <br>
-So we treat the picture, we clean the background (if the background isn't white). From that we trying to take contours (except the smaller contour who's represent noise, pixels that we do not want), so we try to take objects in the picture. And to copy them in a new white picture. We have a white in most of the cases, background !
+So we treat the picture, we clean the background (if the background isn't white). From that we trying to take contours (except the smaller contour who's represent noise, pixels that we do not want. We ignore too the highter who's represent the border of the frame), so we try to take objects in the picture. And to copy them in a new white picture. We have a white in most of the cases, background !
 
 <br><br>
 <strong>For example:</strong>
@@ -28,7 +28,6 @@ filter who's bynarize the picture, who's make the picture in black and white and
 
 
 
-(if the background isn't white). From that we trying to take contours (except the smaller contour who's represent noise, pixels that we do not want), so we try to take objects in the picture. And to copy them in a new white picture. We have a white in most of the cases, background !
 
 
 
