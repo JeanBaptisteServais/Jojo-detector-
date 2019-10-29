@@ -78,7 +78,7 @@ We make a label file who say to us <strong>the name of the model, the name of th
 
 For example : spoon spoon 1 handle,tank 50x50
 
-Now we can detect objects in memory like that :
+Now we can detect objects in memory like that :<br><br>
 
 <p align="center">
   <img width="400" height="250" src="https://user-images.githubusercontent.com/54853371/67530531-9de92700-f6bf-11e9-9baa-2014c7e99217.jpg">
