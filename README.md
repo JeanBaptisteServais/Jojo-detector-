@@ -25,7 +25,7 @@ filter who's bynarize the picture, who's make the picture in black and white and
 <p align="left">
 <img width="200" height="200" src="https://user-images.githubusercontent.com/54853371/67644702-2bc54c00-f924-11e9-81de-ca7e3b34e6ea.png">
 </p>
-
+<em>Here it's the best case we can have. Sometime the treatment destroy the picture... </em>
 
 
 
