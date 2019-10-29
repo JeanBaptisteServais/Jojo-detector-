@@ -18,14 +18,14 @@ We recover and separate objects from each other in a scene like:
 <p>
 
 
-<img width="300" height="150" align="left" src="https://user-images.githubusercontent.com/54853371/67782765-8ae0a900-fa69-11e9-9c87-12c8ec772e18.png">
+<img width="250" height="150" align="left" src="https://user-images.githubusercontent.com/54853371/67782765-8ae0a900-fa69-11e9-9c87-12c8ec772e18.png">
 
 
-<img width="150" height="150" align="center" src="https://user-images.githubusercontent.com/54853371/67784042-743b5180-fa6b-11e9-8a8f-05865c2e3dce.png">
+<img width="130" height="150" align="center" src="https://user-images.githubusercontent.com/54853371/67784042-743b5180-fa6b-11e9-8a8f-05865c2e3dce.png">
 
-<img width="150" height="150" align="center" src="https://user-images.githubusercontent.com/54853371/67783588-c4fe7a80-fa6a-11e9-9f45-b5edc42d508c.png">
+<img width="130" height="150" align="center" src="https://user-images.githubusercontent.com/54853371/67783588-c4fe7a80-fa6a-11e9-9f45-b5edc42d508c.png">
 
-<img width="150" height="150" align="center" src="https://user-images.githubusercontent.com/54853371/67784688-6cc87800-fa6c-11e9-8777-6e42c9bb3ad6.png">
+<img width="100" height="150" align="center" src="https://user-images.githubusercontent.com/54853371/67784688-6cc87800-fa6c-11e9-8777-6e42c9bb3ad6.png">
 
 <img width="150" height="150" align="center" src="https://user-images.githubusercontent.com/54853371/67784689-6d610e80-fa6c-11e9-98b6-75ef626dac9f.png">
 
