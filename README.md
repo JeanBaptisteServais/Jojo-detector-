@@ -15,6 +15,8 @@ We recover and separate objects from each other in a scene like:
 
 5) - Before training we only take the object without the white background.
 
+<br><br>
+
 <p>
 
 
