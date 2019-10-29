@@ -6,6 +6,7 @@ here we rotate the image to put the object in a desired direction with soh cah t
 
 We need to positionnate our object because our model (i think) because it isn't robust to rotation of picture. In some if the object's horizontally or leanning it could doesn't pass to the detection.
 
+For that we take the max point, the head and the footer of the current object like that:
 
 
 
