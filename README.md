@@ -3,9 +3,9 @@
 
 Here we apply fourth or five treatments (five for a next version who's gave part of the objects).
 
-<h3>First treatment</h3>
+<h2>First treatment</h2>
 
-<h4>Background</h4>
+<h3>Background</h3>
 
 <br>
 So we treat the picture, we clean the background (if the background isn't white). From that we trying to take contours (except the smaller contour who's represent noise, pixels that we do not want), so we try to take objects in the picture. And to copy them in a new white picture. We have a white in most of the cases, background !
