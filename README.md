@@ -4,9 +4,14 @@
 
 We recover and separate objects from each other in a scene like:
 
-Here we have many knife, again we found contours by a thresholding to thresh: 250 and max value: 255, if the pixel value is less 250 this pixel is black or 0 else the pixel is define to white or 255. 
+1) - Here we have many knife, again we found contours by a thresholding to thresh: 250 and max value: 255, if the pixel value is less 250 this pixel is black or 0 else the pixel is define to white or 255. 
 
-Next, we course the black and white picture and recup all contours (when we speak about contours we speak about the border of the object) and course them one by one, if the first contour is white, superpose this to the orignal picture and make all the rest in white. And we can have only have a knife.
+2) - Next, we course the black and white picture and recup all contours (when we speak about contours we speak about the border of the object) 
+
+
+3) - and course them one by one, if the first contour is white, superpose this to the orignal picture and make all the rest in white. 
+
+4) - And we can have only have a knife.
 
 
 <p>
