@@ -13,7 +13,7 @@ We recover and separate objects from each other in a scene like:
 
 4) - And we can have only have a knife. We repeat the operation for all objects <em>here 4 times for 4 knifes !</em>
 
-5) - Before training we only take the object without the white background.
+5) - Before training we detect objects, includes them into a rectangle who's gave us (x, y) and (L, l) coordiantes; then we take the object without the white background.
 
 <br><br>
 
