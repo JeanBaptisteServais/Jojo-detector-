@@ -10,9 +10,9 @@ Here we apply fourth or five treatments (five for a next version who's gave part
 <br>
 So we treat the picture, we clean the background (if the background isn't white). From that we trying to take contours (except the smaller contour who's represent noise, pixels that we do not want), so we try to take objects in the picture. And to copy them in a new white picture. We have a white in most of the cases, background !
 
-<br>
+<br><br>
 <strong>For example:</strong>
-<br>
+<br><br>
 <p align="center">
   <img width="460" height="250" src="https://user-images.githubusercontent.com/54853371/67151961-803a4d00-f2ce-11e9-8b6c-12888f8b0f5c.png">
 </p>
