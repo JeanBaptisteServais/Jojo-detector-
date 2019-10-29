@@ -96,7 +96,9 @@ Now we can detect objects in memory like that :<br><br>
 
 
 
-<h1>Step Three</h1>
+<h1>STEP THREE PART 1</h1>
+
+<h2>scrap</h2>
 
 We have the last detection the plate.
 
@@ -118,7 +120,9 @@ But food isn't a category of object so we continue to filter word to category an
 
 
 
-<h1>Step Fourth</h1>
+<h1>STEP THREE PART 2</h1>
+
+<h2>Download</h2>
 
 Now we have our objects from internet and we'll try to make a learning to the program and finally detect our unknows objects. 
 
@@ -139,26 +143,7 @@ This script allows to download x images from ènieme to x on google image !!!
 
 
 
-
-
-                                                                                                                                                                                                             
-
-
-<h1>Step Three</h1>
-
-<h2>scrap</h2>
-
- - Here we search category of the detection, here the plate from wikipédia page from google (wikipedia categorie:plate). 
-
- - After have found the wikipédia page we go on it and recup all href
- 
- - and continue to filter word to catefgory for example we got washing up who's gave us spoon, fork ect... food -> tomato ect...
-
-
-
-
-
-<h1>Step Fourth</h1>
+<h1>STEP FOURTH</h1>
 
 Here we apply fourth or five treatments (five for a next version who's gave part of the objects).
 
