@@ -31,19 +31,15 @@ We need to positionnate our object because our model (i think) because it isn't 
 
 
 
+  
 
-
-
-
-
-
-
-
+  
 For that we take the max point, the head and the footer of the current object like that:
 
+<p align="center">
+<img width="100" height="150" align="center" src="https://user-images.githubusercontent.com/54853371/67785661-e01eb980-fa6d-11e9-8751-45ce919013b8.jpg">
 
-
-
+</p>
 
 
 
