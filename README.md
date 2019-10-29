@@ -35,13 +35,12 @@ We know importance of dataset. Imagine a cloud just for IA programs. We know the
 
 <h2>This is what we do in real.</h2>
 <h3>We try to detect unknow objects from plate by learning from google image.</h3>
-<br><br>
+
 ![diagramme](https://user-images.githubusercontent.com/54853371/67506530-7e390b00-f68d-11e9-8085-913d96b38d0e.png)
 
 </details>
 
 <br><br>
-
 
 
 
@@ -119,10 +118,6 @@ But food isn't a category of object so we continue to filter word to category an
 
 
 
-
-
-
-
 <h1>Step Fourth</h1>
 
 Now we have our objects from internet and we'll try to make a learning to the program and finally detect our unknows objects. 
@@ -142,7 +137,6 @@ This script allows to download x images from ènieme to x on google image !!!
 
 
 
-<br><br>
 
 
 
