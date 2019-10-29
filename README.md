@@ -60,7 +60,7 @@ For that we take the max point, the head and the footer of the current object li
 
 
 
-After have define this we:
+After have define this:
 
 
 - We calculate the arctangeante because we have opposite and adjacent side.
@@ -81,8 +81,9 @@ After have define this we:
   
 ![cc-ConvertImage](https://user-images.githubusercontent.com/54853371/67152972-5a6a7380-f2e1-11e9-96ec-17d701f1d5d4.png)
 
-![bb-ConvertImage](https://user-images.githubusercontent.com/54853371/67152957-f182fb80-f2e0-11e9-8a12-cd832d0d4ce7.png)
-
+<p align="center">
+ ![bb-ConvertImage](https://user-images.githubusercontent.com/54853371/67152957-f182fb80-f2e0-11e9-8a12-cd832d0d4ce7.png)
+</p>
 
 
 
