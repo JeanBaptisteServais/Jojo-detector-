@@ -13,6 +13,7 @@ We recover and separate objects from each other in a scene like:
 
 4) - And we can have only have a knife.
 
+5) - Before training we only take the object without the white background.
 
 <p>
 
