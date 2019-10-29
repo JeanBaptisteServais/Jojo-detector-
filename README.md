@@ -35,7 +35,7 @@ We know importance of dataset. Imagine a cloud just for IA programs. We know the
 
 <h2>This is what we do in real.</h2>
 <h3>We try to detect unknow objects from plate by learning from google image.</h3>
-
+<br><br>
 ![diagramme](https://user-images.githubusercontent.com/54853371/67506530-7e390b00-f68d-11e9-8085-913d96b38d0e.png)
 
 </details>
@@ -91,13 +91,7 @@ Now we can detect objects in memory like that :
 
 <strong>why did we do a label file ?</strong> We need the dimension for detect an object. For example a plate can be 50 cm width and 50 cm height but a spoon need to have for example 5 cm width and 20 cm height. Moreover, for a next version we can only detect the part of object for example a handle + a tank is a spoon, a handle + tine = fork !!
 
-<br><br><br><br>     
-
-
-
-
-
-
+<br><br>   
 
 
 
