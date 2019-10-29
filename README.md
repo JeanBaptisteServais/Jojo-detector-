@@ -29,11 +29,20 @@ We need to positionnate our object because our model (i think) because it isn't 
 </p>
 
 
+So we want only a normal object in our dataset.
 
-
+- We define 4 categories because rotation isn't the same by inclinaison:
+ 
+  - 1) top bot (top up, bot down)
   
-
+  - 2) bot top (top down, bot up)
   
+  - 3) horinzontal leaning
+  
+  - 4) normal
+
+
+
 For that we take the max point, the head and the footer of the current object like that:
 
 <p align="center">
@@ -45,6 +54,32 @@ For that we take the max point, the head and the footer of the current object li
 
 
 </p>
+
+
+
+
+
+
+After have define this we:
+
+
+- We calculate the arctangeante because we have opposite and adjacent side.
+
+- We rotate it to 45 - current degrees (x1; y1) - current degrees (x2; y2) 
+
+- We re took current position of head and footer
+
+- calculate distance on y axis on the two (we want |y1 - y2| < 10)
+
+- We try a direction if |y1 - y2| increment from the last point we tried the opposite direction
+
+- It make me so proud !
+
+
+
+
+  
+
 
 
 
