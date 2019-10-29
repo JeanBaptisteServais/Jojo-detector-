@@ -321,13 +321,14 @@ After have define this:
 
 
 
+<h2>Third treatment</h2>
+
+<h3>Find part</h3>
 
 
-<h2>Find part</h2>
+<h2>Fourth treatment</h2>
 
-
-
-<h2>delete</h2>
+<h3>delete</h3>
 
 Here we delete data destroy by last operations (background who break some picture or didn't worked)...
 
