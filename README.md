@@ -7,7 +7,7 @@
 
 Now we have our objects from internet and we'll try to make a learning to the program and finally detect our unknows objects. 
 
-We'll download 200 objects of this last search thank to <strong>penseeartificielle/google-image-scrapping</strong>.
+We'll download 200 objects of this last search based on <strong>penseeartificielle/google-image-scrapping</strong> script.
 
 
 <br><br>
