@@ -11,7 +11,7 @@ We recover and separate objects from each other in a scene like:
 
 3) - and course them one by one, if the first contour is white, superpose this to the orignal picture and make all the rest in white. 
 
-4) - And we can have only have a knife.
+4) - And we can have only have a knife. We repeat the operation for all objects <em>here 4 times for 4 knifes !</em>
 
 5) - Before training we only take the object without the white background.
 
