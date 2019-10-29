@@ -6,8 +6,9 @@ Here we recover and separate objects from each other in a scene like:
 
 
 
-
-
+<p align="left">
+<img width="200" height="200" src="https://user-images.githubusercontent.com/54853371/67782765-8ae0a900-fa69-11e9-9c87-12c8ec772e18.png">
+</p>
 
 
 
