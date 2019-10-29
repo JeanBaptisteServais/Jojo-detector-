@@ -39,7 +39,7 @@ For that we take the max point, the head and the footer of the current object li
 <p align="center">
 <img width="100" height="150" align="center" src="https://user-images.githubusercontent.com/54853371/67785661-e01eb980-fa6d-11e9-8751-45ce919013b8.jpg">
 
-<img width="100" height="150" align="center" src="https://user-images.githubusercontent.com/54853371/67786734-acdd2a00-fa6f-11e9-969f-030dae907d3a.png">
+<img width="150" height="200" align="center" src="https://user-images.githubusercontent.com/54853371/67786734-acdd2a00-fa6f-11e9-969f-030dae907d3a.png">
 
 
 
