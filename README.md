@@ -2,9 +2,9 @@
 
 <h3>positioning</h3>
 
+here we rotate the image to put the object in a desired direction with soh cah toa Thank to <strong>Simon Belleguy</strong> who's help me a lot for mathematic formula !
 
-
-
+We need to positionnate our object because our model (i think) because it isn't robust to rotation of picture. In some if the object's horizontally or leanning it could doesn't pass to the detection.
 
 
 
