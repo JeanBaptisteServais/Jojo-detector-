@@ -4,7 +4,7 @@
 
 We recover and separate objects from each other in a scene like:
 
-Here we have many knife, again we found contours by a thresholding to 250 255, if the pixel value is less 250 this pixel is black or 0 else the pixel is define to white or 255.
+Here we have many knife, again we found contours by a thresholding to thresh: 250 and max value: 255, if the pixel value is less 250 this pixel is black or 0 else the pixel is define to white or 255.
 
 
 <p align="left">
