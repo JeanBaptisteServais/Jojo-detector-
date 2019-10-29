@@ -2,6 +2,38 @@
 
 <h3>Multiple objects</h3>
 
+Here we recover and separate objects from each other in a scene like:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 <br><br>
