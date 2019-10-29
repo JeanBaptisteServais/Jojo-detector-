@@ -23,9 +23,11 @@ filter who's bynarize the picture, who's make the picture in black and white and
 (here the spoon'll only white and the background only black.)
 
 <p align="left">
-<img width="200" height="200" src="https://user-images.githubusercontent.com/54853371/67644702-2bc54c00-f924-11e9-81de-ca7e3b34e6ea.png">
+<img width="200" height="200" src="https://user-images.githubusercontent.com/54853371/67644702-2bc54c00-f924-11e9-81de-ca7e3b34e6ea.png"> <em>Here it's the best case we can have. Sometime the treatment destroy the picture... </em>
+  
+ 
 </p>
-<em>Here it's the best case we can have. Sometime the treatment destroy the picture... </em>
+
 
 
 
