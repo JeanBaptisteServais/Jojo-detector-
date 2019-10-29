@@ -9,6 +9,14 @@ Here we have many knife, again we found contours by a thresholding to thresh: 25
 
 <p align="left">
 <img width="300" height="150" src="https://user-images.githubusercontent.com/54853371/67782765-8ae0a900-fa69-11e9-9c87-12c8ec772e18.png">
+
+  
+</p>
+
+<p align="center">
+<img width="300" height="150" src="https://user-images.githubusercontent.com/54853371/67783588-c4fe7a80-fa6a-11e9-9f45-b5edc42d508c.png">
+
+  
 </p>
 
 
