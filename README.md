@@ -25,9 +25,10 @@ We recover and separate objects from each other in a scene like:
 
 <img width="130" height="150" align="center" src="https://user-images.githubusercontent.com/54853371/67783588-c4fe7a80-fa6a-11e9-9f45-b5edc42d508c.png">
 
-<img width="100" height="150" align="center" src="https://user-images.githubusercontent.com/54853371/67784688-6cc87800-fa6c-11e9-8777-6e42c9bb3ad6.png">
 
 <img width="150" height="150" align="center" src="https://user-images.githubusercontent.com/54853371/67784689-6d610e80-fa6c-11e9-98b6-75ef626dac9f.png">
+
+<img width="100" height="150" align="center" src="https://user-images.githubusercontent.com/54853371/67784688-6cc87800-fa6c-11e9-8777-6e42c9bb3ad6.png">
 
 </p>
 
