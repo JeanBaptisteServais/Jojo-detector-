@@ -341,7 +341,11 @@ Indeed we removing small and big contours 1400 < contour > 11000
 
 <h2>Find dimensions</h2>
 
+Here we don't know how many objects we have download. So we make a file who's writting an other file. We course all the objects from our dataset object by object. We recup the head and footer, the right and the left of the object.
 
+After have do that we convert pixel to cm.
+
+For do that we lunch a thread.
 
 <br><br>
 6
@@ -352,9 +356,6 @@ Indeed we removing small and big contours 1400 < contour > 11000
 <br><br>
 résultats
 <br><br>
-amélioration
-<br><br>
-limits
-<br><br>
-pk ca ne marchera pas sur d'autres images (car je n'ai pas assez de temps blablabla)
-<br><br>
+
+
+
