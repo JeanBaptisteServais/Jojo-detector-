@@ -350,14 +350,11 @@ For do that we lunch a thread.
 These dimensions are important for the training and the detections.
 
 
-<br><br>
-6
-<br><br>
-7
-<br><br>
-8
-<br><br>
-résultats
+
+<h1>Results:</h1>
+
+Are not good we only can detect spoon, fork are detected in on fork and spoon and knife isn't detected  
+
 <br><br>
 
 
