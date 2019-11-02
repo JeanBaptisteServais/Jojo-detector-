@@ -349,7 +349,16 @@ For do that we lunch a thread.
 
 These dimensions are important for the training and the detections.
 
+<h1>Step Six</h1>
 
+We training each objects. Negativ are all other objects downloaded.
+
+<h1>Step Seven</h1>
+
+Is the second step
+
+
+<h1>Step Height</h1>
 
 <h1>Results:</h1>
 
