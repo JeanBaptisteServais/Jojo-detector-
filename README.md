@@ -347,6 +347,9 @@ After have do that we convert pixel to cm.
 
 For do that we lunch a thread.
 
+These dimensions are important for the training and the detections.
+
+
 <br><br>
 6
 <br><br>
