@@ -351,7 +351,7 @@ These dimensions are important for the training and the detections.
 
 <h1>Step Six</h1>
 
-We training each objects. Negativ are all other objects downloaded.
+We training each objects. Negativs are all other objects downloaded.
 
 <h1>Step Seven</h1>
 
@@ -377,3 +377,8 @@ where fork = fourchette<br>
 spoon = cuillère<br>
 plate = assiette<br>
 knife = oh didn't found...
+
+
+<h1>Improvement:</h1>
+
+All, speed, picture, code, scrap, dimension aspect, try:execpt message...
