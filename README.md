@@ -357,8 +357,11 @@ We training each objects. Negativ are all other objects downloaded.
 
 Is the second step
 
-
 <h1>Step Height</h1>
+
+Is moving models if we got a detection !
+
+
 
 <h1>Results:</h1>
 
