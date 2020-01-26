@@ -1,6 +1,6 @@
 <h1>Presentation</h1>
 <br>
-bah en soit ca apprend par lui meme, je ne lui ai jamais fait apprendre de cuillerre ni de fourchette u_u
+bah en soit ca apprend par lui meme, je ne lui ai jamais fait apprendre de cuillerre ni de fourchette u_u enfaite chai pas...
 
 Hey my name's JB, i 25 years old, French, i a young Web developer i just graduate from 2 month. I coding from a little more than one year. Indeed i'm issue from Litterature and Sciences cognitives. I make exercices.<br>
 
